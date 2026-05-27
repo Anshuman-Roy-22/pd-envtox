@@ -1,0 +1,18 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+Thumbs.db
+.tmp_r_lib/
+
+# renv caches the local library here; track renv.lock instead.
+renv/library/
+
+# Derived intermediates should be regenerated, not versioned.
+data_intermediate/
+
+# Keep final outputs, but ignore transient logs.
+results/_*.txt
+*.Rout
+*.Rout.fail
