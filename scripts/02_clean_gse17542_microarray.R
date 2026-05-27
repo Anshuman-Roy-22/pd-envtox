@@ -5,10 +5,21 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-infile  <- "data_intermediate/gse17542_eset_unzipped.rds"
+infile_candidates <- c(
+  "data_intermediate/gse17542_eset_unzipped.rds",
+  "data_intermediate/gse17542_eset.rds"
+)
+infile  <- infile_candidates[file.exists(infile_candidates)][1]
 outfile <- "data_intermediate/gse17542_clean.rds"
 
-stopifnot(file.exists(infile))
+if (is.na(infile)) {
+  stop(
+    "Missing required GSE17542 input. Expected one of: ",
+    paste(infile_candidates, collapse = ", ")
+  )
+}
+
+message("Using GSE17542 input: ", infile)
 eset <- readRDS(infile)
 
 # ---------------------------

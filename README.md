@@ -58,7 +58,9 @@ From the repository root:
 Rscript run_pipeline.R
 ```
 
-By default, `run_pipeline.R` skips the network fetch scripts and runs the local analysis steps that consume existing inputs.
+By default, `run_pipeline.R` uses the local inputs already present in the repository and only falls back to `scripts/01_fetch_geo.R` when required GEO seed inputs are missing.
+
+If the required GEO seed inputs are missing, `run_pipeline.R` now auto-enables `scripts/01_fetch_geo.R` so a fresh clone can bootstrap itself more reliably.
 
 To include live GEO downloads:
 
@@ -66,6 +68,8 @@ To include live GEO downloads:
 $env:RUN_FETCH_GEO = "true"
 Rscript run_pipeline.R
 ```
+
+`RUN_FETCH_GEO=true` forces a refresh pass even when the seed inputs are already present.
 
 To also fetch and save the optional `GSE187012` series matrix metadata:
 
