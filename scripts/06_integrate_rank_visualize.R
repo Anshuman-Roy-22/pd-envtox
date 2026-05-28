@@ -41,7 +41,7 @@ dt[, reactivity := 0.66 * mptp10d_norm + 0.34 * pq_norm]
 
 # Shared / replication logic
 # "Shared perturbed" means above a minimal norm threshold in BOTH
-# (use loose thresholds; you can tune later)
+# (thresholds can be adjusted later if needed)
 dt[, shared_loose := (mptp10d_norm >= 0.20 & pq_norm >= 0.20)]
 
 # Direction consistency (10d vs PQ)
@@ -54,7 +54,7 @@ dt[, same_direction_2d := !is.na(mptp2d_logFC) & (sign(mptp2d_logFC) == sign(pq_
 dt[, mptp10d_sig_fdr05 := (mptp10d_fdr <= 0.05)]
 dt[, mptp2d_sig_fdr05  := (!is.na(mptp2d_fdr) & mptp2d_fdr <= 0.05)]
 
-# Optional: cell-type attribution via marker lists (no web searching)
+# Optional: cell-type attribution via marker lists
 dt[, inferred_celltype := "Unknown"]
 
 if (file.exists(mark_path)) {
@@ -73,7 +73,7 @@ setorder(dt, -reactivity)
 out_main <- "results/robust_sporadic_candidates_ranked.csv"
 fwrite(dt, out_main)
 
-# Also export a "top table" that is judge-friendly
+# Also export a compact top table
 top <- dt[, .(
   gene,
   reactivity,

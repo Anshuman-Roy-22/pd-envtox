@@ -8,7 +8,7 @@ stopifnot(file.exists(in_rank))
 
 dir.create("results", showWarnings = FALSE)
 
-# Your original 20-gene candidate panel
+# Original 20-gene candidate panel
 panel20 <- c(
   "SNX3","VPS26B","PSENEN","APH1A","SNX2","APH1B","EIF4E","EIF4B","EIF4A2","NCSTN",
   "PABPC1","DCTN2","EIF4A1","VPS26A","VPS29","APP","CLIP1","DYNC1H1","ACTR1B","DCTN3"
@@ -31,7 +31,7 @@ setorder(sub, panel_order)
 # Identify missing panel genes
 missing <- setdiff(panel20, sub$gene)
 
-# Compact judge-friendly table (Table 1)
+# Compact summary table (Table 1)
 keep_cols <- c(
   "gene","global_rank","reactivity","shared_loose","inferred_celltype",
   "pq_log2FC","pq_norm",

@@ -9,7 +9,7 @@ in_dir <- "data_raw/GSE187012/extracted"
 dir.create("data_intermediate", showWarnings = FALSE)
 source("scripts/helpers_10x_io.R")
 
-# ---- file paths (you listed these exact names) ----
+# ---- file paths ----
 ctl_feat <- file.path(in_dir, "GSM5667021_CTL_features.tsv.gz")
 ctl_bc   <- file.path(in_dir, "GSM5667021_CTL_barcodes.tsv.gz")
 ctl_mtx  <- file.path(in_dir, "GSM5667021_CTL_matrix.mtx.gz")
@@ -34,7 +34,7 @@ obj <- FindNeighbors(obj, dims = 1:20, verbose = FALSE)
 obj <- FindClusters(obj, resolution = 0.6, verbose = FALSE)
 obj <- RunUMAP(obj, dims = 1:20, verbose = FALSE)
 
-# ---- "smart" labeling without web searches: module scores ----
+# ---- module-score-based labeling ----
 DA_MARKERS <- c("TH","SLC6A3","DDC","SLC18A2","NR4A2","FOXA2","LMX1A","PITX3")
 MG_MARKERS <- c("P2RY12","TMEM119","CX3CR1","AIF1","C1QA","C1QB","C1QC","TYROBP","TREM2")
 
@@ -78,7 +78,7 @@ meta$celltype <- "Other"
 meta$celltype[meta$cluster == da_cluster] <- "DA"
 meta$celltype[meta$cluster == mg_cluster] <- "Microglia"
 
-# ---- export barcode->celltype (for your records + report) ----
+# ---- export barcode-to-celltype annotations ----
 annot <- data.table(
   barcode = rownames(meta),
   sample = meta$sample,
@@ -107,7 +107,7 @@ saveRDS(list(
   cluster_score_table = avg
 ), "data_intermediate/gse187012_signatures.rds")
 
-# ---- marker lists (for no-tool fallback & reporting) ----
+# ---- marker lists for downstream reporting ----
 Idents(obj) <- factor(meta$celltype)
 da_mark <- FindMarkers(obj, ident.1 = "DA", ident.2 = "Other", only.pos = TRUE, logfc.threshold = 0.25)
 mg_mark <- FindMarkers(obj, ident.1 = "Microglia", ident.2 = "Other", only.pos = TRUE, logfc.threshold = 0.25)

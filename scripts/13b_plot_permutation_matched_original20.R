@@ -23,14 +23,13 @@ clean_theme <- theme_minimal(base_size = 13) +
     plot.margin = margin(12, 16, 12, 16)
   )
 
-# Load the permutation summary (numbers you posted)
+# Load the permutation summary
 sum_path <- "results/permutation_matched_original20.csv"
 stopifnot(file.exists(sum_path))
 s <- fread(sum_path)
 
-# If you saved the full null vector somewhere, plot that.
-# If not, we will reconstruct a *summary plot* (not ideal).
-# BEST: modify the permutation script to save the null vector too.
+# If the full null vector is available, plot it directly.
+# Otherwise, reconstruct a summary plot from the reported moments.
 
 # Try to load null vector if present:
 null_path <- "results/permutation_matched_original20_null.csv"
@@ -56,12 +55,12 @@ if (file.exists(null_path)) {
   cat("Saved: results/fig5_permutation_matched_original20.png\n")
 
 } else {
-  # Fallback plot using only summary stats (less ideal but still usable)
+  # Fallback plot using only summary statistics
   obs <- s$observed_mean_reactivity[1]
   mu  <- s$null_mean[1]
   sd  <- s$null_sd[1]
 
-  # create a normal approximation curve to show where obs lies
+  # Create a normal approximation curve to show where obs lies
   x <- seq(mu - 4*sd, mu + 4*sd, length.out = 400)
   y <- dnorm(x, mean = mu, sd = sd)
   dt <- data.table(x = x, y = y)
@@ -83,5 +82,5 @@ if (file.exists(null_path)) {
 
   ggsave("results/fig5_permutation_matched_original20.png", p, width = 10, height = 6, dpi = 300)
   cat("Saved (approx): results/fig5_permutation_matched_original20.png\n")
-  cat("Tip: to make the true histogram, save the null draws in the permutation script.\n")
+  cat("Save the null draws in the permutation script to generate the full histogram.\n")
 }

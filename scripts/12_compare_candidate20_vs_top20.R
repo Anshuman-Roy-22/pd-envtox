@@ -15,7 +15,7 @@ candidate20 <- c(
 )
 candidate20 <- intersect(candidate20, dt$gene)
 
-# Define TOP20 by your final integrated score
+# Define TOP20 by the final integrated score
 top20 <- dt[order(-reactivity)][1:20]$gene
 
 dt[, set := fifelse(gene %in% candidate20, "Candidate20",
@@ -34,7 +34,7 @@ metrics <- dt[set != "Background", .(
 
 fwrite(metrics, "results/compare_candidate20_vs_top20_metrics.csv")
 
-# Visual: distributions (clean)
+# Visual: distributions
 sub <- dt[set != "Background", .(gene, set, reactivity, mptp10d_norm, pq_norm)]
 sub <- melt(sub, id.vars = c("gene","set"), variable.name = "metric", value.name = "value")
 sub[, metric := factor(metric, levels=c("reactivity","mptp10d_norm","pq_norm"),

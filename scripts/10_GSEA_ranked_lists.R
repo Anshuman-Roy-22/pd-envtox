@@ -57,7 +57,7 @@ term2gene_react$gene_symbol <- toupper(term2gene_react$gene_symbol)
 term2gene_bp$gene_symbol    <- toupper(term2gene_bp$gene_symbol)
 
 # Run GSEA (symbol-based, no Entrez mapping)
-# looser cutoffs for poster exploration but tighten later
+# exploratory cutoffs; tighten later if needed
 gsea_react <- tryCatch(
   GSEA(
     geneList = geneList,
