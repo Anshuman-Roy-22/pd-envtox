@@ -1,77 +1,33 @@
 # pd-envtox
 
-`pd-envtox` is an R-based analysis pipeline for integrating bulk microarray and single-nucleus RNA-seq data to rank environmentally responsive Parkinson's disease candidate genes.
+R pipeline for integrating bulk microarray and single-nucleus RNA-seq data to rank environmentally responsive Parkinson's disease candidate genes.
 
-The current local folder can remain named `terra_pd_extension` if you want. The GitHub repository name should be `pd-envtox`.
+## Key Components of Repository
 
-## Datasets
+- A canonical, numbered R pipeline instead of multiple competing analysis paths.
+- Automatic GEO bootstrapping when required seed inputs are missing from a fresh clone.
+- Tracked raw snRNA-seq inputs plus tracked release-grade results and figures.
+- A project-local `renv` environment with a committed lockfile for reproducible package restoration.
+- SHA256 checksum manifests and session metadata for reproducibility-critical inputs and outputs.
 
-- `GSE17542`: bulk microarray MPTP mouse substantia nigra dataset
-- `GSE187012`: single-nucleus RNA-seq paraquat/maneb exposure dataset
-
-## Repository Layout
-
-- `scripts/`: numbered analysis scripts
-- `data_raw/`: downloaded or extracted raw inputs used directly by the pipeline
-- `data_intermediate/`: regenerated intermediate files; do not track in Git
-- `results/`: final tables and figures intended to be frozen for a release
-- `metadata/`: reproducibility metadata such as session info and checksums
-
-## Reproducible Setup
-
-Before the first public push, initialize `renv` from the repository root and commit the resulting `renv.lock`:
-
-```r
-install.packages("renv")
-renv::init(bare = TRUE)
-
-install.packages(c(
-  "data.table",
-  "Matrix",
-  "Seurat",
-  "nnls",
-  "ggplot2",
-  "ggrepel",
-  "msigdbr"
-))
-
-if (!requireNamespace("BiocManager", quietly = TRUE)) {
-  install.packages("BiocManager")
-}
-
-BiocManager::install(c("GEOquery", "limma", "clusterProfiler"))
-
-renv::snapshot()
-```
-
-Anyone reproducing the project should then be able to run:
-
-```r
-renv::restore()
-```
-
-## Running The Pipeline
-
-From the repository root:
+## Quick start
 
 ```powershell
+Rscript -e "if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv', repos = 'https://cloud.r-project.org')"
+Rscript -e "renv::restore()"
 Rscript run_pipeline.R
 ```
 
-By default, `run_pipeline.R` uses the local inputs already present in the repository and only falls back to `scripts/01_fetch_geo.R` when required GEO seed inputs are missing.
+If the required GEO seed inputs are missing, `run_pipeline.R` will auto-enable `scripts/01_fetch_geo.R`.
 
-If the required GEO seed inputs are missing, `run_pipeline.R` now auto-enables `scripts/01_fetch_geo.R` so a fresh clone can bootstrap itself more reliably.
-
-To include live GEO downloads:
+To force a fresh GEO download pass:
 
 ```powershell
 $env:RUN_FETCH_GEO = "true"
 Rscript run_pipeline.R
 ```
 
-`RUN_FETCH_GEO=true` forces a refresh pass even when the seed inputs are already present.
-
-To also fetch and save the optional `GSE187012` series matrix metadata:
+To also fetch the optional `GSE187012` series-matrix metadata snapshot:
 
 ```powershell
 $env:RUN_FETCH_GEO = "true"
@@ -79,11 +35,9 @@ $env:RUN_OPTIONAL_GSE187012_META = "true"
 Rscript run_pipeline.R
 ```
 
-## Script Order
+## Canonical pipeline order
 
-Core execution order:
-
-1. `scripts/01_fetch_geo.R` when raw GEO downloads are needed
+1. `scripts/01_fetch_geo.R` when GEO seed files are missing or a refresh is requested
 2. `scripts/02_clean_gse17542_microarray.R`
 3. `scripts/03_build_gse187012_signatures.R`
 4. `scripts/03c_build_and_save_gse187012_seurat.R`
@@ -105,32 +59,96 @@ Optional:
 
 - `scripts/03a_fetch_gse187012_meta.R`
 
-Currently excluded from the documented pipeline:
+Not part of the canonical runnable pipeline:
 
 - `scripts/09_permutation_test_candidate20.R`
 
-That file is now a deprecated guard script so older notes do not silently run stale logic.
+That file is a deprecated guard script kept only so older notes do not silently run stale logic.
 
-## Versioning Policy
+## Tracked inputs and outputs
 
-Recommended Git policy for this project:
+Tracked source or reduced-input files:
 
-- track `scripts/`
-- track `data_raw/` inputs that are actually consumed by the scripts
-- do not track `data_intermediate/`
-- track release-grade `results/`
-- store `sessionInfo.txt` and checksum manifests in `metadata/`
-
-## Reproducibility Metadata
-
-Suggested metadata files:
-
-- `metadata/sessionInfo.txt`
+- `data_raw/GSE187012/GSE187012_RAW.tar`
+- `data_raw/GSE187012/extracted/GSM5667021_CTL_barcodes.tsv.gz`
+- `data_raw/GSE187012/extracted/GSM5667021_CTL_features.tsv.gz`
+- `data_raw/GSE187012/extracted/GSM5667021_CTL_matrix.mtx.gz`
+- `data_raw/GSE187012/extracted/GSM5667022_EXP_barcodes.tsv.gz`
+- `data_raw/GSE187012/extracted/GSM5667022_EXP_features.tsv.gz`
+- `data_raw/GSE187012/extracted/GSM5667022_EXP_matrix.mtx.gz`
 - `metadata/raw_checksums.csv`
+
+Tracked canonical outputs:
+
+- `results/robust_sporadic_candidates_ranked.csv`
+- `results/top200_candidates_for_writeup.csv`
+- `results/original20_table1.csv`
+- `results/original20_results_pack.csv`
+- `results/original20_celltype_specific_logFC.csv`
+- `results/deconv_gse17542_proportions.csv`
+- `results/gse17542_limma_mptp2d_vs_control.csv`
+- `results/gse17542_limma_mptp10d_vs_control.csv`
+- `results/gse187012_pseudobulk_log2fc.csv`
+- `results/permutation_matched_original20.csv`
+- `results/compare_candidate20_vs_top20_metrics.csv`
+- `results/fig1_original20_reactivity_bar.png`
+- `results/fig2_original20_scatter_mptp10d_vs_pq.png`
+- `results/fig3_original20_direction_tile.png`
+- `results/fig4A_original20_celltype_logFC_heatmap.png`
+- `results/fig4B_original20_dotplot_celltypes.png`
+- `results/fig5_original20_norm_heatmap.png`
+- `results/fig5_permutation_matched_original20.png`
+- `results/fig6_candidate20_vs_top20_boxplots.png`
+- `results/fig7A_gsea_mptp10d_reactome.png`
+- `results/fig7B_gsea_mptp10d_gobp.png`
 - `metadata/results_checksums.csv`
 
-Instructions are in [metadata/README.md](metadata/README.md).
+Not tracked in normal Git history:
 
-## Publishing
+- `data_intermediate/` rebuildable intermediates
+- transient logs such as `results/_*.txt`
+- local cache material produced during package restore or exploratory work
 
-Use [PUBLISHING_CHECKLIST.md](PUBLISHING_CHECKLIST.md) for the exact Git and GitHub procedure, and [CODE_READABILITY_NOTES.md](CODE_READABILITY_NOTES.md) for code cleanup items worth doing before the first public release.
+## Environment files
+
+- `renv.lock`: Canonical R package lockfile for the repository.
+- `.Rprofile` and `renv/activate.R`: Project-local activation hooks for `renv`.
+- `metadata/sessionInfo.txt`: Recorded R session metadata for the tracked environment snapshot.
+- `pd-envtox.Rproj`: RStudio project file with UTF-8 settings.
+
+## Validation
+
+Canonical rerun:
+
+```powershell
+Rscript run_pipeline.R
+```
+
+Refresh reproducibility metadata after a rerun:
+
+```powershell
+Get-ChildItem data_raw -Recurse -File |
+  Get-FileHash -Algorithm SHA256 |
+  Export-Csv metadata\raw_checksums.csv -NoTypeInformation
+
+Get-ChildItem results -Recurse -File |
+  Get-FileHash -Algorithm SHA256 |
+  Export-Csv metadata\results_checksums.csv -NoTypeInformation
+```
+
+For environment restoration and metadata notes, see `metadata/README.md`.
+
+## Repository layout
+
+- `scripts/`: Canonical pipeline scripts.
+- `data_raw/`: Tracked raw or reduced raw inputs used by the pipeline.
+- `data_intermediate/`: Regenerated intermediate objects, not tracked in Git.
+- `results/`: Canonical tabular outputs and figures tracked in Git.
+- `metadata/`: Checksums, session metadata, and reproducibility notes.
+- `renv/`: Project-local reproducible R environment bootstrap files.
+
+## License
+
+This repository is released under the MIT License. See `LICENSE`.
+
+Reach out with questions
