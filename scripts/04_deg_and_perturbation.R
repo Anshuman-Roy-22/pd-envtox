@@ -9,18 +9,14 @@ dir.create("data_intermediate", showWarnings = FALSE)
 dir.create("results", showWarnings = FALSE)
 source("scripts/helpers_10x_io.R")
 
-# -------------------------
 # Helpers
-# -------------------------
 minmax01 <- function(x) {
   rng <- range(x, na.rm = TRUE)
   if (!is.finite(rng[1]) || !is.finite(rng[2]) || rng[1] == rng[2]) return(rep(0, length(x)))
   (x - rng[1]) / (rng[2] - rng[1])
 }
 
-# =========================
 # PART A: GSE17542 (bulk microarray) - limma DEG + perturbation
-# =========================
 bulk <- readRDS("data_intermediate/gse17542_clean.rds")
 expr <- bulk$expr_gene             # genes x samples
 meta <- bulk$meta
@@ -68,9 +64,7 @@ saveRDS(list(
 
 cat("Saved GSE17542 DEG tables.\n")
 
-# =========================
 # PART B: GSE187012 (10x CTL vs EXP) - pseudo-bulk log2FC + perturbation
-# =========================
 in_dir <- "data_raw/GSE187012/extracted"
 
 ctl_feat <- file.path(in_dir, "GSM5667021_CTL_features.tsv.gz")

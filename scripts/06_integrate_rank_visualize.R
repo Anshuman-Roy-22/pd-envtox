@@ -3,9 +3,7 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-# -------------------------
 # Inputs
-# -------------------------
 deg_path <- "data_intermediate/gse17542_deg_tables.rds"
 pq_path  <- "data_intermediate/gse187012_pseudobulk.rds"
 mark_path <- "data_intermediate/gse187012_marker_lists.rds"  # optional but recommended
@@ -34,20 +32,14 @@ tab2d  <- tab2d[,  .(gene, mptp2d_logFC,  mptp2d_fdr,  mptp2d_perturb,  mptp2d_n
 tab10d <- tab10d[, .(gene, mptp10d_logFC, mptp10d_fdr, mptp10d_perturb, mptp10d_norm)]
 pq_dt  <- pq_dt[,  .(gene, pq_log2FC, pq_perturb, pq_norm)]
 
-# -------------------------
 # Merge across datasets
-# -------------------------
 dt <- merge(tab10d, pq_dt, by = "gene", all = FALSE)
 dt <- merge(dt, tab2d, by = "gene", all.x = TRUE)
 
-# -------------------------
 # Reactivity score (primary = MPTP 10d)
-# -------------------------
 dt[, reactivity := 0.66 * mptp10d_norm + 0.34 * pq_norm]
 
-# -------------------------
 # Shared / replication logic
-# -------------------------
 # "Shared perturbed" means above a minimal norm threshold in BOTH
 # (use loose thresholds; you can tune later)
 dt[, shared_loose := (mptp10d_norm >= 0.20 & pq_norm >= 0.20)]
@@ -62,9 +54,7 @@ dt[, same_direction_2d := !is.na(mptp2d_logFC) & (sign(mptp2d_logFC) == sign(pq_
 dt[, mptp10d_sig_fdr05 := (mptp10d_fdr <= 0.05)]
 dt[, mptp2d_sig_fdr05  := (!is.na(mptp2d_fdr) & mptp2d_fdr <= 0.05)]
 
-# -------------------------
 # Optional: cell-type attribution via marker lists (no web searching)
-# -------------------------
 dt[, inferred_celltype := "Unknown"]
 
 if (file.exists(mark_path)) {
@@ -77,9 +67,7 @@ if (file.exists(mark_path)) {
   dt[gene %in% intersect(da_set, mg_set), inferred_celltype := "Both"]
 }
 
-# -------------------------
 # Final ranking + export
-# -------------------------
 setorder(dt, -reactivity)
 
 out_main <- "results/robust_sporadic_candidates_ranked.csv"

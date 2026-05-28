@@ -22,17 +22,13 @@ if (is.na(infile)) {
 message("Using GSE17542 input: ", infile)
 eset <- readRDS(infile)
 
-# ---------------------------
 # 1) Expression + metadata
-# ---------------------------
 expr_probe <- exprs(eset)                 # probes x samples
 meta <- pData(eset)                       # samples x fields
 fdat <- tryCatch(fData(eset), error = function(e) NULL)
 
-# ---------------------------
 # 2) Probe -> Gene Symbol mapping
 #    Try fData first; else use GPL table
-# ---------------------------
 probe_ids <- rownames(expr_probe)
 
 get_symbol_from_fdata <- function(fdat) {
@@ -103,9 +99,7 @@ if (is.null(symbols) || all(is.na(symbols)) || sum(nzchar(symbols), na.rm = TRUE
 symbols <- toupper(trimws(as.character(symbols)))
 symbols[symbols %in% c("", "NA", "N/A", "---")] <- NA
 
-# ---------------------------
 # 3) Collapse probes -> genes (median)
-# ---------------------------
 keep <- !is.na(symbols)
 expr_probe <- expr_probe[keep, , drop = FALSE]
 symbols_kept <- symbols[keep]
@@ -121,9 +115,7 @@ expr_gene <- as.matrix(expr_gene_dt[, ..gene_cols])
 rownames(expr_gene) <- expr_gene_dt$GENE_SYMBOL
 colnames(expr_gene) <- gene_cols
 
-# ---------------------------
 # 4) Filter to Substantia Nigra samples (robust match)
-# ---------------------------
 meta_text <- apply(meta, 1, function(r) paste(r, collapse = " | "))
 is_sn <- grepl("substantia\\s*nigra|\\bSN\\b", meta_text, ignore.case = TRUE)
 
@@ -135,9 +127,7 @@ if (sum(is_sn) < 2) {
 meta_sn <- meta[is_sn, , drop = FALSE]
 expr_gene_sn <- expr_gene[, rownames(meta_sn), drop = FALSE]
 
-# ---------------------------
 # 5) Label groups: control / mptp_2d / mptp_10d (robust parse)
-# ---------------------------
 txt <- apply(meta_sn, 1, function(r) tolower(paste(r, collapse = " | ")))
 
 group <- rep(NA_character_, length(txt))
@@ -158,9 +148,7 @@ meta_sn$group <- factor(group, levels = c("control", "mptp_2d", "mptp_10d", "mpt
 message("Group counts:")
 print(table(meta_sn$group, useNA = "ifany"))
 
-# ---------------------------
 # 6) Save
-# ---------------------------
 dir.create("data_intermediate", showWarnings = FALSE)
 
 saveRDS(

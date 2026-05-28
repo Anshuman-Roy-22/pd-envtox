@@ -44,9 +44,7 @@ poster_theme <- function() {
     )
 }
 
-# ----------------------------
 # FIG 1 - Reactivity barplot (clean)
-# ----------------------------
 p1 <- ggplot(t20, aes(x = gene_f, y = reactivity)) +
   geom_col(width = 0.75) +
   coord_flip() +
@@ -62,9 +60,7 @@ p1 <- ggplot(t20, aes(x = gene_f, y = reactivity)) +
 
 ggsave("results/fig1_original20_reactivity_bar.png", p1, width = 9, height = 6, dpi = 300)
 
-# ----------------------------
 # FIG 2 - Scatter: MPTP10d_norm vs PQ_norm with non-overlapping labels
-# ----------------------------
 p2 <- ggplot(t20, aes(x = mptp10d_norm, y = pq_norm, label = gene)) +
   geom_point(size = 3) +
   ggrepel::geom_text_repel(
@@ -85,9 +81,7 @@ p2 <- ggplot(t20, aes(x = mptp10d_norm, y = pq_norm, label = gene)) +
 
 ggsave("results/fig2_original20_scatter_mptp10d_vs_pq.png", p2, width = 8, height = 6, dpi = 300)
 
-# ----------------------------
 # FIG 3 - Direction concordance tile (clean legend + spacing)
-# ----------------------------
 t20[, same_direction_10d := as.logical(same_direction_10d)]
 t20[, same_direction_2d := as.logical(same_direction_2d)]
 
@@ -117,9 +111,7 @@ p3 <- ggplot(dir_dt, aes(x = comparison, y = gene_f, fill = same_direction)) +
 
 ggsave("results/fig3_original20_direction_tile.png", p3, width = 8.2, height = 6.2, dpi = 300)
 
-# ----------------------------
 # FIG 4 - Cell-type attribution: gene-level strip (interpretable)
-# ----------------------------
 if ("inferred_celltype" %in% names(t20)) {
   t20[, inferred_celltype := fifelse(is.na(inferred_celltype) | inferred_celltype == "", "Unknown", inferred_celltype)]
 
@@ -141,9 +133,7 @@ if ("inferred_celltype" %in% names(t20)) {
   ggsave("results/fig4_original20_celltype_strip.png", p4, width = 7.8, height = 6.2, dpi = 300)
 }
 
-# ----------------------------
 # FIG 5 - Heatmap: PQ_norm, MPTP2d_norm, MPTP10d_norm (proper layout)
-# ----------------------------
 hm <- t20[, .(gene, gene_f, pq_norm, mptp2d_norm, mptp10d_norm)]
 hm_long <- melt(
   hm,
