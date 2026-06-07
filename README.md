@@ -9,6 +9,7 @@ R pipeline for integrating bulk microarray and single-nucleus RNA-seq data to ra
 - Tracked raw snRNA-seq inputs plus tracked release-grade results and figures.
 - A project-local `renv` environment with a committed lockfile for reproducible package restoration.
 - SHA256 checksum manifests and session metadata for reproducibility-critical inputs and outputs.
+- Detailed scripts, algorithms, etc.
 
 ## Quick start
 
@@ -59,11 +60,11 @@ Optional:
 
 - `scripts/03a_fetch_gse187012_meta.R`
 
-Not part of the canonical runnable pipeline:
+Not part of the runnable pipeline:
 
 - `scripts/09_permutation_test_candidate20.R`
 
-That file is a deprecated guard script kept only so older notes do not silently run stale logic.
+That file is a deprecated guard script kept only so older notes do not silently run stale logic. Not implementable.
 
 ## Tracked inputs and outputs
 
