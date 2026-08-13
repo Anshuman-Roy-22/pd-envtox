@@ -8,6 +8,8 @@ Comparison base: `origin/main` at `04df4ed`
 
 Audited head before this document: `bad812c`
 
+Latest completed addition: `9083dc8` (`Add final AAN V2 scientific figures`)
+
 ## Executive verdict
 
 The scientific analysis and validation expansion is complete. The entire
@@ -18,15 +20,13 @@ pathway-level reanalysis, independent toxicant testing, held-out testing, and
 donor-level human substantia nigra testing. It also preserves negative results
 and uses frozen analysis plans for the major confirmatory steps.
 
-Three technical deliverables remain before the non-writing work can be called
+Two technical deliverables remain before the non-writing work can be called
 submission-ready:
 
-1. Create final V2 figures that show the actual revised evidence. There are
-   currently no figure files under `results/v2/`.
-2. Connect scripts 16 through 27 to a master V2 runner and add acquisition for
+1. Connect scripts 16 through 28 to a master V2 runner and add acquisition for
    the older untracked GEO inputs. The current `run_pipeline.R` stops at script
    15 and therefore reproduces the original analysis only.
-3. Complete release verification with checksums for the newest result
+2. Complete release verification with checksums for the newest result
    directories and a clean-clone end-to-end rerun.
 
 No further mechanism search or additional dataset testing is required by the
@@ -47,7 +47,7 @@ not completion of the existing overhaul.
 | Human disease-tissue validation | Complete | GSE178265 primary and GSE243639 independent replication were completed at donor level. |
 | Frozen-plan and metadata-lock discipline | Complete | Six frozen plans, a formal reanalysis specification, and a primary metadata lock are tracked. |
 | Analysis result tables and audits | Complete | Gene, pathway, donor, mapping, QC, sensitivity, and manifest tables are tracked. |
-| Final V2 scientific figures | Incomplete | `results/v2/` contains zero PNG, PDF, SVG, or TIFF figure artifacts. |
+| Final V2 scientific figures | Complete | Five 300-DPI PNGs, five vector PDFs, derived plotting tables, source checksums, and output checksums are tracked under `results/v2/aan_figures/`. |
 | One-command V2 reproduction | Incomplete | `run_pipeline.R` runs scripts 01 through 15 only. |
 | Clean-clone raw-input acquisition | Partial | Fetchers exist for held-out and final human-SN inputs. Older V2 GEO inputs still depend on local untracked directories. |
 | Checksum coverage | Partial | Checksum manifests are missing from `gse196190_heldout`, `heldout_external_sensitivity`, and `human_sn_proteasome`. |
@@ -383,6 +383,42 @@ Impact on the project:
 The pathway gained one outcome-frozen human disease-tissue confirmation. It did
 not gain independent cross-cohort human replication.
 
+### 10. Final V2 scientific figure package
+
+Commit: `9083dc8` (`Add final AAN V2 scientific figures`)
+
+What changed:
+
+- Added `scripts/28_aan_v2_figures.py` with release-value assertions.
+- Added a study-design and evidence-progression figure.
+- Added a cross-model proteasome convergence figure.
+- Added a frozen GSE116280 rotenone replication figure.
+- Added a donor-level human substantia nigra figure with adjusted effect
+  estimates and confidence intervals.
+- Added a validation-outcome matrix separating nomination, retrospective
+  signal, confirmation, mixed evidence, failed confirmation, and tests that
+  were not performed.
+- Produced each figure as a 300-DPI PNG and vector PDF.
+- Added exact derived plotting tables, source SHA256 checksums, output SHA256
+  checksums, PNG dimensions, captions, and reproduction instructions.
+
+Verification:
+
+- Every plotted value was read from a tracked V2 table.
+- Rendering was performed from an isolated Git index snapshot so preexisting
+  worktree modifications could not influence the figures.
+- All five figures passed visual inspection.
+- All five PDFs were verified as valid single-page files.
+- A second isolated render reproduced every PNG, PDF, and derived TSV
+  byte-for-byte.
+- The output checksum manifest and Git-index source manifest both passed.
+
+Impact on the project:
+
+The revised evidence can now be presented without relying on figures built for
+the superseded original-panel narrative. The figure set visibly preserves null
+results and the distinction between retrospective signals and frozen tests.
+
 ## Reproducibility and research-integrity revisions
 
 The overhaul added the following safeguards beyond new datasets:
@@ -425,7 +461,7 @@ replication.
 
 ### A. Final V2 figure set
 
-Status: required.
+Status: complete in `9083dc8`.
 
 At minimum, the technical figure set should contain:
 
@@ -441,6 +477,8 @@ At minimum, the technical figure set should contain:
    claims were confirmed, partially supported, or not confirmed.
 
 Every plotted number should be generated directly from tracked V2 tables.
+All five requirements above are now implemented under
+`results/v2/aan_figures/` and generated by `scripts/28_aan_v2_figures.py`.
 
 ### B. Master V2 runner
 
@@ -452,7 +490,7 @@ new V2 orchestrator should:
 - Restore or verify the R environment.
 - Verify Python dependencies.
 - Acquire every required untracked input.
-- Run scripts 16 through 27 in dependency order.
+- Run scripts 16 through 28 in dependency order.
 - Keep retrospective, confirmatory, and sensitivity stages visibly separated.
 - Stop immediately on missing inputs, checksum mismatches, or failed commands.
 - Regenerate the final V2 figures and checksum manifest.
