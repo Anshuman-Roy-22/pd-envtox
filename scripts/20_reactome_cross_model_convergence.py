@@ -27,6 +27,16 @@ TARGETED = [
 
 
 def rankings() -> dict[str, pd.DataFrame]:
+    limma_dir = ROOT / "results/v2/limma_confirmation"
+    if (limma_dir / "human_PD_limma_directional_meta.tsv").exists():
+        a = pd.read_csv(limma_dir / "GSE46798_limma_all_genes.tsv", sep="\t")
+        b = pd.read_csv(limma_dir / "GSE17542_limma_all_genes.tsv", sep="\t")
+        c = pd.read_csv(limma_dir / "human_PD_limma_directional_meta.tsv", sep="\t")
+        return {
+            "GSE46798_exposure_corrected_limma": a.loc[a.contrast == "exposure_corrected", ["gene", "t"]].rename(columns={"t": "score"}),
+            "GSE17542_SN_MPTP10_limma": b.loc[b.contrast == "SN_MPTP10_vs_control", ["gene", "t"]].rename(columns={"t": "score"}),
+            "human_PD_postmortem_meta_limma": c[["gene", "meta_z"]].rename(columns={"meta_z": "score"}),
+        }
     a = pd.read_csv(ROOT / "results/v2/gse46798/GSE46798_factorial_all_genes.tsv.gz", sep="\t")
     b = pd.read_csv(ROOT / "results/v2/gse17542_sn_vta/GSE17542_SN_VTA_all_genes.tsv.gz", sep="\t")
     c = pd.read_csv(ROOT / "results/v2/human_validation/human_PD_directional_meta_all_genes.tsv", sep="\t")
