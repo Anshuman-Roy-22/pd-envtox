@@ -1,0 +1,71 @@
+Mechanism_family	Contrast	Pathway	NGenes	Correlation	Direction	PValue	FDR
+cilium_Hedgehog_microtubule_trafficking	Rotenone	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.101301428588958	Down	5.0189469689216e-06	0.00395242073802576
+cilium_Hedgehog_microtubule_trafficking	Rotenone	Intraflagellar transport	43	0.00588863509975394	Down	2.84046405939943e-05	0.0111843272338853
+cilium_Hedgehog_microtubule_trafficking	Rotenone	Cargo trafficking to the periciliary membrane	64	-0.00590640001077388	Down	5.73713679739887e-05	0.015059984093172
+cilium_Hedgehog_microtubule_trafficking	Rotenone	Carboxyterminal post-translational modifications of tubulin	37	-0.00558938016914924	Down	8.25506360395801e-05	0.0185738931089055
+aggrephagy	Rotenone	Aggrephagy	36	0.0262769907447181	Down	0.000144479537301716	0.027244848056774
+cilium_Hedgehog_microtubule_trafficking	Rotenone	Hedgehog 'off' state	95	0.0137088516695722	Down	0.000468399784415642	0.0461081037784147
+integrated_ER_stress_response	Rotenone	ATF6 (ATF6-alpha) activates chaperone genes	10	0.00167973594607913	Up	0.0231388802755932	0.598313115715459
+proteostasis	Rotenone	Ribosome-associated quality control	141	0.25710490807055	Up	0.186085486470444	0.842363110857418
+integrated_ER_stress_response	Rotenone	Response of EIF2AK1 (HRI) to heme deficiency	15	0.0404315767463809	Up	0.228179920461609	0.854133646737524
+proteostasis	Rotenone	Proteasome assembly	47	0.0942626309228506	Down	0.480164333780809	0.919143083038729
+integrated_ER_stress_response	MPP	Response of EIF2AK1 (HRI) to heme deficiency	15	0.0400197820913479	Up	0.000164135542002947	0.258513478654642
+cilium_Hedgehog_microtubule_trafficking	MPP	Intraflagellar transport	43	0.0063588038436051	Down	0.00782186794599494	0.435200709253637
+cilium_Hedgehog_microtubule_trafficking	MPP	Cargo trafficking to the periciliary membrane	64	-0.00585374170504065	Down	0.0194411947227442	0.435200709253637
+cilium_Hedgehog_microtubule_trafficking	MPP	Hedgehog 'off' state	95	0.0137658884337329	Down	0.0422972920383302	0.435200709253637
+aggrephagy	MPP	Aggrephagy	36	0.0270800452129821	Down	0.0534702395613193	0.445585329677661
+cilium_Hedgehog_microtubule_trafficking	MPP	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.102999820190379	Down	0.0601063852764415	0.473337784051977
+cilium_Hedgehog_microtubule_trafficking	MPP	Carboxyterminal post-translational modifications of tubulin	37	-0.00551548369964958	Down	0.160030449153202	0.648171406531213
+proteostasis	MPP	Proteasome assembly	47	0.0943248234096082	Down	0.23168353140326	0.699288261981957
+integrated_ER_stress_response	MPP	ATF6 (ATF6-alpha) activates chaperone genes	10	0.00104457688814473	Up	0.840441717232099	0.980418653831717
+proteostasis	MPP	Ribosome-associated quality control	141	0.256889291771142	Up	0.962469106111691	0.998132014013724
+integrated_ER_stress_response	Paraquat	Response of EIF2AK1 (HRI) to heme deficiency	15	0.039972155782588	Up	0.0131840290284335	0.99974376603714
+cilium_Hedgehog_microtubule_trafficking	Paraquat	Intraflagellar transport	43	0.00613246290934951	Down	0.326898571151673	0.99974376603714
+aggrephagy	Paraquat	Aggrephagy	36	0.0266623157697791	Down	0.392654603676515	0.99974376603714
+cilium_Hedgehog_microtubule_trafficking	Paraquat	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.101394799376357	Down	0.454636124575304	0.99974376603714
+proteostasis	Paraquat	Ribosome-associated quality control	141	0.256747058130096	Up	0.50958823091006	0.99974376603714
+cilium_Hedgehog_microtubule_trafficking	Paraquat	Carboxyterminal post-translational modifications of tubulin	37	-0.00553180366776324	Down	0.512378279593684	0.99974376603714
+cilium_Hedgehog_microtubule_trafficking	Paraquat	Cargo trafficking to the periciliary membrane	64	-0.00587903623874781	Down	0.585537833101128	0.99974376603714
+cilium_Hedgehog_microtubule_trafficking	Paraquat	Hedgehog 'off' state	95	0.0136060708851616	Down	0.670793941629835	0.99974376603714
+integrated_ER_stress_response	Paraquat	ATF6 (ATF6-alpha) activates chaperone genes	10	0.000668747433738274	Up	0.828696465130448	0.99974376603714
+proteostasis	Paraquat	Proteasome assembly	47	0.0942765183238645	Down	0.895683947798232	0.99974376603714
+integrated_ER_stress_response	SixOHDA	ATF6 (ATF6-alpha) activates chaperone genes	10	0.000178819412451409	Up	1.0224021718558e-05	0.0161028342067289
+integrated_ER_stress_response	SixOHDA	Response of EIF2AK1 (HRI) to heme deficiency	15	0.0391406724090799	Up	0.0037377500721344	0.922200672086393
+cilium_Hedgehog_microtubule_trafficking	SixOHDA	Intraflagellar transport	43	0.00619735111284284	Down	0.214674945948161	0.922200672086393
+cilium_Hedgehog_microtubule_trafficking	SixOHDA	Carboxyterminal post-translational modifications of tubulin	37	-0.00551622600358778	Down	0.325934208173773	0.922200672086393
+cilium_Hedgehog_microtubule_trafficking	SixOHDA	Cargo trafficking to the periciliary membrane	64	-0.00590977039504015	Down	0.385940356433251	0.922200672086393
+proteostasis	SixOHDA	Ribosome-associated quality control	141	0.256794765170896	Up	0.454716478039908	0.922910377465019
+proteostasis	SixOHDA	Proteasome assembly	47	0.0941037574703389	Up	0.532630122951266	0.956618358580952
+cilium_Hedgehog_microtubule_trafficking	SixOHDA	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.102584836740124	Down	0.670131416354081	0.959609438878067
+aggrephagy	SixOHDA	Aggrephagy	36	0.0266627607834522	Down	0.853900239740613	0.968997857445822
+cilium_Hedgehog_microtubule_trafficking	SixOHDA	Hedgehog 'off' state	95	0.0136262707998355	Down	0.961247065765369	0.99527298640245
+integrated_ER_stress_response	Ziram	Response of EIF2AK1 (HRI) to heme deficiency	15	0.039419269468548	Up	6.54918368945386e-06	0.00515748215544492
+cilium_Hedgehog_microtubule_trafficking	Ziram	Carboxyterminal post-translational modifications of tubulin	37	-0.00542877010006577	Down	0.0002907026017362	0.050872955303835
+cilium_Hedgehog_microtubule_trafficking	Ziram	Intraflagellar transport	43	0.00633697364145389	Down	0.00382972699581927	0.212255300522022
+aggrephagy	Ziram	Aggrephagy	36	0.0270558441392468	Down	0.00459085846618396	0.223056714463091
+cilium_Hedgehog_microtubule_trafficking	Ziram	Hedgehog 'off' state	95	0.0138094676440278	Down	0.0222465744165798	0.345976616007141
+cilium_Hedgehog_microtubule_trafficking	Ziram	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.10268510390487	Down	0.0252358227246873	0.347816891036882
+cilium_Hedgehog_microtubule_trafficking	Ziram	Cargo trafficking to the periciliary membrane	64	-0.00584352468829708	Down	0.0400140604296149	0.403988110106689
+proteostasis	Ziram	Ribosome-associated quality control	141	0.256931151897933	Down	0.175496722472011	0.607488654710809
+proteostasis	Ziram	Proteasome assembly	47	0.0939237253400843	Down	0.362419655570292	0.742585334880287
+integrated_ER_stress_response	Ziram	ATF6 (ATF6-alpha) activates chaperone genes	10	0.000715373108794375	Up	0.627811842151984	0.87139922514492
+integrated_ER_stress_response	Methylmercury	ATF6 (ATF6-alpha) activates chaperone genes	10	0.000790430790028681	Up	0.0101180941277921	0.305098882188175
+integrated_ER_stress_response	Methylmercury	Response of EIF2AK1 (HRI) to heme deficiency	15	0.0411027041611826	Up	0.11454294278196	0.539257101262191
+proteostasis	Methylmercury	Proteasome assembly	47	0.0944878170104947	Up	0.193221925433989	0.624095052006824
+proteostasis	Methylmercury	Ribosome-associated quality control	141	0.256602189698916	Up	0.254081177075305	0.669666003234703
+cilium_Hedgehog_microtubule_trafficking	Methylmercury	Carboxyterminal post-translational modifications of tubulin	37	-0.00549258008781119	Down	0.339409909327706	0.719658364352337
+cilium_Hedgehog_microtubule_trafficking	Methylmercury	Cargo trafficking to the periciliary membrane	64	-0.00581227601665038	Down	0.854220454917122	0.952156558028639
+aggrephagy	Methylmercury	Aggrephagy	36	0.0272326389872969	Up	0.87852484028312	0.954661815296516
+cilium_Hedgehog_microtubule_trafficking	Methylmercury	Hedgehog 'off' state	95	0.0137555480748062	Down	0.906031430025328	0.969789928108819
+cilium_Hedgehog_microtubule_trafficking	Methylmercury	Intraflagellar transport	43	0.00632682040981624	Down	0.947213274070366	0.985975900524448
+cilium_Hedgehog_microtubule_trafficking	Methylmercury	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.102986551365249	Down	0.97322789302757	0.992125522018397
+cilium_Hedgehog_microtubule_trafficking	MS275	Cargo trafficking to the periciliary membrane	64	-0.00624748759691905	Down	0.00423727789038315	0.0395116169895895
+cilium_Hedgehog_microtubule_trafficking	MS275	Hedgehog 'off' state	95	0.0134743089694212	Down	0.0124427607001261	0.0685896850958751
+proteostasis	MS275	Proteasome assembly	47	0.0935441553902561	Down	0.0292505501054844	0.104229901393977
+cilium_Hedgehog_microtubule_trafficking	MS275	Intraflagellar transport	43	0.00662516638279797	Down	0.0816305032010884	0.19571803954585
+integrated_ER_stress_response	MS275	ATF6 (ATF6-alpha) activates chaperone genes	10	-0.00326943818244143	Up	0.245819361943591	0.416306983936726
+cilium_Hedgehog_microtubule_trafficking	MS275	Carboxyterminal post-translational modifications of tubulin	37	-0.00553109111497866	Up	0.359167309403208	0.531077261201642
+cilium_Hedgehog_microtubule_trafficking	MS275	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	14	0.104796815906554	Up	0.377913248440865	0.551123487309595
+integrated_ER_stress_response	MS275	Response of EIF2AK1 (HRI) to heme deficiency	15	0.037668320794535	Down	0.79948381361695	0.883020341126716
+aggrephagy	MS275	Aggrephagy	36	0.0289128491504173	Down	0.932113254940083	0.962608286902729
+proteostasis	MS275	Ribosome-associated quality control	141	0.255210984892403	Up	0.984242829036742	0.988945122353221

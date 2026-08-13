@@ -1,0 +1,8 @@
+Contrast	Treatment_role	Genes_FDR_0.05	Pathways_FDR_0.05	Top_pathway	Top_direction	Top_PValue	Top_FDR
+Rotenone	PD_environmental_toxicant	965	18	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	Down	5.0189469689216e-06	0.00395242073802576
+MPP	PD_environmental_toxicant	2151	0	Response of EIF2AK1 (HRI) to heme deficiency	Up	0.000164135542002947	0.258513478654642
+Paraquat	PD_environmental_toxicant	0	0	Zinc transporters	Down	0.00688555223407831	0.99974376603714
+SixOHDA	PD_environmental_toxicant	1	2	ATF6 (ATF6-alpha) activates chaperone genes	Up	1.0224021718558e-05	0.0161028342067289
+Ziram	PD_environmental_toxicant	155	8	Response to metal ions	Up	5.75649615619282e-06	0.00515748215544492
+Methylmercury	PD_environmental_toxicant	47	0	NFE2L2 regulating anti-oxidant/detoxification enzymes	Up	0.000199595507303279	0.305098882188175
+MS275	HDAC_inhibitor_comparator	8181	211	Deubiquitination	Down	4.570822491821e-06	0.00404932696842894
