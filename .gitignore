@@ -18,6 +18,7 @@ data_raw/gse196190/
 data_raw/gse229460/
 data_raw/gse287941/
 data_raw/gse4773/
+data_raw/human_sn_proteasome/
 
 # Keep final outputs, but ignore transient logs.
 results/_*.txt

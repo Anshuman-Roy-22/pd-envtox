@@ -1,0 +1,2 @@
+mechanism	declared_direction	primary_outcome	replication_outcome	overall_outcome	primary_beta	primary_one_sided_p	replication_beta	replication_one_sided_p
+Reactome Proteasome assembly (R-HSA-9907900)	Down in PD	CONFIRMED	NOT_CONFIRMED	PRIMARY_ONLY	-0.4000391990069354	0.03522407025103581	0.004211262800259519	0.5095340240511492

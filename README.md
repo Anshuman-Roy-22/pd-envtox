@@ -13,9 +13,15 @@ cilium/Hedgehog/microtubule-trafficking mechanism was also `NOT_CONFIRMED`
 (GSE196190 one-sided-down p = 0.1221), and two stronger external LUHMES
 sensitivities were null.
 
+A final frozen donor-level human substantia nigra test confirmed lower Reactome
+Proteasome assembly expression in GSE178265 DA nuclei (adjusted beta = -0.4000,
+one-sided p = 0.0352), but the independent GSE243639 DA-neuron replication was
+null (beta = +0.0042, p = 0.5095). Its frozen overall label is `PRIMARY_ONLY`,
+not independently replicated.
+
 The defensible project conclusion is context-dependent pathway convergence, not
 a universally replicated environmental-PD mechanism. See
-`docs/v2/heldout_mechanism_validation_report.md` for the latest formal result.
+`docs/v2/human_sn_proteasome_validation_report.md` for the latest formal result.
 
 ## Key Components of Repository
 
