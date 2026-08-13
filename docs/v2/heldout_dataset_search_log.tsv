@@ -1,0 +1,48 @@
+accession	n_samples	decision	planned_role	reason
+GSE300875	28	exclude	-	X-linked dystonia-parkinsonism patient-derived neurons; GEO metadata does not establish a midbrain/dopaminergic neuronal identity for the toxicant contrast.
+GSE291145	5	exclude	-	High-glucose exposure rather than a frozen-plan toxicant.
+GSE292438	75	exclude	-	Developmental/interspecies organoid study without an eligible toxicant-control contrast.
+GSE287941	22	eligible	sensitivity	Differentiated wild-type LUHMES with untreated and 6-OHDA groups, four biological samples per group; RNA-seq.
+GSE315113	6	exclude	-	ATAC-seq rather than transcriptomic expression profiling.
+GSE315111	9	exclude	-	SH-SY5Y exposure study without documented dopaminergic differentiation in GEO metadata.
+GSE271115	10	exclude	-	Genetic PARK7 midbrain-organoid study without an eligible toxicant-control contrast.
+GSE282273	6	exclude	-	Developmental neural organoids with fewer than three biological samples per exposure group and no clear midbrain/dopaminergic identity.
+GSE233885	21	exclude	-	Dopaminergic graft identity study without an eligible toxicant-control contrast.
+GSE242197	65	exclude	-	Huntington disease single-nucleus study without an eligible toxicant-control contrast.
+GSE242195	91	exclude	-	Huntington disease bulk study without an eligible toxicant-control contrast.
+GSE245060	15	exclude	-	iPSC-derived peripheral sympathetic neurons, not midbrain/dopaminergic neurons.
+GSE229460	9	eligible	sensitivity	Mature LUHMES with control and subtoxic MPP+ groups, three biological samples per group; RNA-seq.
+GSE249360	6	exclude	-	iPSC-derived midbrain dopaminergic cells but fewer than three independent biological samples per exposure group.
+GSE247600	8	exclude	-	Dopaminergic lineage-tracing study without an eligible toxicant-control contrast.
+GSE246680	9	exclude	-	Dopaminergic differentiation study without an eligible toxicant-control contrast.
+GSE227070	6	exclude	-	Dopaminergic differentiation study without an eligible toxicant-control contrast.
+GSE214189	18	exclude	-	Dopaminergic differentiation study without an eligible toxicant-control contrast.
+GSE216991	1441	exclude	-	Neuroprotective compound screen without an eligible dopaminergic toxicant-control contrast.
+GSE245006	519	exclude	-	Neuroblastoma cancer drug-screening study outside the frozen biological scope.
+GSE214243	6	exclude	-	MPP+ PRO-seq in SH-SY5Y cells without documented dopaminergic differentiation; not conventional expression profiling.
+GSE232910	19	exclude	-	Spatial brain-tissue study without an eligible in-vitro toxicant-control contrast.
+GSE200610	14	exclude	-	Dopaminergic graft lineage study without an eligible toxicant-control contrast.
+GSE198009	16	exclude	-	6-OHDA SH-SY5Y study without documented dopaminergic differentiation.
+GSE203522	16	exclude	-	SH-SY5Y differentiation study without an eligible toxicant-control contrast.
+GSE196190	24	eligible	primary	Day-54 human iPSC-derived dopaminergic neurons, MPP+ and matched controls, three biological samples per dose-time group; RNA-seq with gene-level RSEM files.
+GSE163176	6	exclude	-	Human adipose-derived stem-cell intervention rather than a human neuronal toxicant-control expression contrast.
+GSE147617	4	exclude	-	Rotenone-exposed HEK293 cells are non-neuronal.
+GSE151808	12	exclude	-	SH-SY5Y exposure study without documented dopaminergic differentiation.
+GSE164788	764	exclude	-	Alzheimer drug-repurposing screen without an eligible dopaminergic toxicant-control contrast.
+GSE135151	16	exclude	-	MicroRNA target-validation study without an eligible neuronal toxicant-control contrast.
+GSE135150	8	exclude	-	MicroRNA target-validation study without an eligible neuronal toxicant-control contrast.
+GSE135149	8	exclude	-	MicroRNA target-validation study without an eligible neuronal toxicant-control contrast.
+GSE150005	24	ineligible	-	Previously used by this project; explicitly barred from held-out selection.
+GSE93639	4	exclude	-	SH-SY5Y protection study with fewer than three biological samples per group and no documented dopaminergic differentiation.
+GSE116280	24	ineligible	-	Previously used by this project; explicitly barred from held-out selection.
+GSE63935	303	exclude	-	Mixed pluripotent-stem-cell neural constructs without a clearly isolated midbrain/dopaminergic toxicant contrast.
+GSE51214	20	exclude	-	Dopaminergic progenitor sorting study without an eligible toxicant-control contrast.
+GSE46798	12	ineligible	-	Previously used by this project; explicitly barred from held-out selection.
+GSE43900	70	exclude	-	Autism/topoisomerase study without an eligible frozen-plan toxicant-control contrast.
+GSE43368	35	exclude	-	SH-SY5Y differentiation characterization without an eligible toxicant-control contrast.
+GSE32658	72	exclude	-	Dopaminergic graft differentiation study without an eligible toxicant-control contrast.
+GSE28300	36	exclude	-	Human dermal fibroblasts are non-neuronal.
+GSE21450	20	exclude	-	SH-SY5Y neurodegeneration model without documented dopaminergic differentiation.
+GSE21305	10	exclude	-	Paraquat-exposed SH-SY5Y cells without documented dopaminergic differentiation.
+GSE5176	4	exclude	-	Marmoset tissue; not human.
+GSE4773	21	borderline	sensitivity-only	Chronic rotenone in an SK-N-MC line described by submitters as dopaminergic, but the tumor-cell identity and composite pooling make it lower-confidence than differentiated human neuronal models.
