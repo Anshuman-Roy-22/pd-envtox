@@ -1,0 +1,4 @@
+accession	contrast	confidence	analyzed_mechanism_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down	constituent_pathways_with_negative_mean_t	passes_primary_style_criteria_as_sensitivity
+GSE4773	rotenone_1w_minus_control_1w	borderline sensitivity only	210	0.0234398573892694	Up	0.0240913900786726	0.987954304960664	0	FALSE
+GSE4773	rotenone_2w_minus_control_2w	borderline sensitivity only	210	0.0234398573892699	Down	0.708018616296939	0.35400930814847	0	FALSE
+GSE4773	rotenone_4w_minus_control_4w	borderline sensitivity only	210	0.0234398573892695	Up	0.133243399616982	0.933378300191509	0	FALSE

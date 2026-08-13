@@ -1,0 +1,2 @@
+filter	retained_genes	analyzed_mechanism_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down
+counts_ge_10_in_ge_3_samples	18042	202	0.0310584129069185	Down	0.233963397519783	0.116981698759891

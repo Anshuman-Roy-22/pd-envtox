@@ -1,0 +1,2 @@
+gate_status	mechanism	analyzed_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down	frozen_outcome
+CLOSED_PRIMARY_NOT_CONFIRMED	Aggrephagy	NA	NA	NA	NA	NA	NOT_TESTED_GATE_CLOSED

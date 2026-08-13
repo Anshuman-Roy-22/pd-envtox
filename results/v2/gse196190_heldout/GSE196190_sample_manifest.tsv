@@ -1,0 +1,7 @@
+GSM	file	group	replicate_series	role	GEO_endpoint_label	paper_endpoint_label
+GSM5862314	GSM5862314_16C_MPP_0_t74_S6.genes.results.gz	control_t74	S6_S7	reference	t74	72 hours
+GSM5862315	GSM5862315_17C_MPP_0_t74_S24.genes.results.gz	control_t74	S24_S25	reference	t74	72 hours
+GSM5862316	GSM5862316_18C_MPP_0_t74_S42.genes.results.gz	control_t74	S42_S43	reference	t74	72 hours
+GSM5862317	GSM5862317_19C_MPP_100uM_t74_S7.genes.results.gz	MPP_100uM_t74	S6_S7	primary_treatment	t74	72 hours
+GSM5862318	GSM5862318_20C_MPP_100uM_t74_S25.genes.results.gz	MPP_100uM_t74	S24_S25	primary_treatment	t74	72 hours
+GSM5862319	GSM5862319_21C_MPP_100uM_t74_S43.genes.results.gz	MPP_100uM_t74	S42_S43	primary_treatment	t74	72 hours

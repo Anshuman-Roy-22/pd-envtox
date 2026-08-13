@@ -1,0 +1,15 @@
+accession	GSM	matrix_column	group	treatment	genotype	model
+GSE229460	GSM7163946	GSM7163946	control	untreated	wild type	differentiated LUHMES
+GSE229460	GSM7163947	GSM7163947	control	untreated	wild type	differentiated LUHMES
+GSE229460	GSM7163948	GSM7163948	control	untreated	wild type	differentiated LUHMES
+GSE229460	GSM7163949	GSM7163949	MPP	10 micromolar MPP+ for 48 hours	wild type	differentiated LUHMES
+GSE229460	GSM7163950	GSM7163950	MPP	10 micromolar MPP+ for 48 hours	wild type	differentiated LUHMES
+GSE229460	GSM7163951	GSM7163951	MPP	10 micromolar MPP+ for 48 hours	wild type	differentiated LUHMES
+GSE287941	GSM8755842	1-V300071532_L01_114	control	untreated	wild type	differentiated LUHMES
+GSE287941	GSM8755843	2-V300071532_L01_32	control	untreated	wild type	differentiated LUHMES
+GSE287941	GSM8755844	3-V300071532_L01_33	control	untreated	wild type	differentiated LUHMES
+GSE287941	GSM8755845	4-V300071532_L01_34	control	untreated	wild type	differentiated LUHMES
+GSE287941	GSM8755850	5-V300071532_L01_35	SixOHDA	6-OHDA; dose and duration not supplied in GEO metadata	wild type	differentiated LUHMES
+GSE287941	GSM8755851	6-V300071532_L01_36	SixOHDA	6-OHDA; dose and duration not supplied in GEO metadata	wild type	differentiated LUHMES
+GSE287941	GSM8755852	7-V300071532_L01_37	SixOHDA	6-OHDA; dose and duration not supplied in GEO metadata	wild type	differentiated LUHMES
+GSE287941	GSM8755853	8-V300071532_L01_38	SixOHDA	6-OHDA; dose and duration not supplied in GEO metadata	wild type	differentiated LUHMES

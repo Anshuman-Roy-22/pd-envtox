@@ -2,6 +2,21 @@
 
 R pipeline for integrating bulk microarray and single-nucleus RNA-seq data to rank environmentally responsive Parkinson's disease candidate genes.
 
+## V2 validation status
+
+The V2 branch records both positive and negative results under frozen analysis
+plans. The original 21-gene network panel did not validate as a general
+toxin-responsive panel. Proteasome assembly showed retrospective cross-model
+convergence but did not meet the prespecified mature-LUHMES rotenone replication
+threshold. A later held-out test of the nominated
+cilium/Hedgehog/microtubule-trafficking mechanism was also `NOT_CONFIRMED`
+(GSE196190 one-sided-down p = 0.1221), and two stronger external LUHMES
+sensitivities were null.
+
+The defensible project conclusion is context-dependent pathway convergence, not
+a universally replicated environmental-PD mechanism. See
+`docs/v2/heldout_mechanism_validation_report.md` for the latest formal result.
+
 ## Key Components of Repository
 
 - A canonical, numbered R pipeline instead of multiple competing analysis paths.

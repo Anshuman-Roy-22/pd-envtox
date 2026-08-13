@@ -1,0 +1,15 @@
+quantity	value
+analysis_status	completed
+primary_frozen_outcome	NOT_CONFIRMED
+samples	6
+control_samples	3
+MPP_samples	3
+primary_filter	edgeR_filterByExpr_locked_design
+genes_before_filter	36565
+genes_after_filter	17994
+Reactome_GMT_SHA256	89983d5c1f0af11c52edfeee7323eb425580ac6281d387a528562ab1787ce56b
+GSE196190_RAW_tar_SHA256	1a20222c1836188b8d0ee9617460372dcf538a5d0bd7007b306eeb7293184b1d
+limma_version	3.66.0
+edgeR_version	4.8.2
+AnnotationDbi_version	1.72.0
+org.Hs.eg.db_version	3.22.0

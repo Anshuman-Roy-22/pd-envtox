@@ -3091,6 +3091,51 @@
       "Maintainer": "Ralf Stubner <ralf.stubner@gmail.com>",
       "Repository": "CRAN"
     },
+    "edgeR": {
+      "Package": "edgeR",
+      "Version": "4.8.2",
+      "Source": "Repository",
+      "Priority": null,
+      "Depends": [
+        "R (>= 3.6.0)",
+        "limma (>= 3.63.6)"
+      ],
+      "Imports": [
+        "methods",
+        "graphics",
+        "stats",
+        "utils",
+        "locfit"
+      ],
+      "LinkingTo": [
+        null
+      ],
+      "Suggests": [
+        "arrow",
+        "jsonlite",
+        "knitr",
+        "Matrix",
+        "readr",
+        "rhdf5",
+        "SeuratObject",
+        "splines",
+        "AnnotationDbi",
+        "Biobase",
+        "BiocStyle",
+        "org.Hs.eg.db",
+        "SummarizedExperiment"
+      ],
+      "Enhances": [
+        null
+      ],
+      "License": "GPL (>= 2)",
+      "License_is_FOSS": null,
+      "License_restricts_use": null,
+      "OS_type": null,
+      "NeedsCompilation": "yes",
+      "Repository": "BioCsoft",
+      "Type": "source"
+    },
     "enrichplot": {
       "Package": "enrichplot",
       "Version": "1.30.5",
@@ -4573,6 +4618,40 @@
       "Maintainer": "Kirill Müller <kirill@cynkra.com>",
       "Repository": "CRAN"
     },
+    "hgu133plus2.db": {
+      "Package": "hgu133plus2.db",
+      "Version": "3.13.0",
+      "Source": "Repository",
+      "Priority": null,
+      "Depends": [
+        "R (>= 2.7.0)",
+        "methods",
+        "AnnotationDbi (>= 1.53.2)",
+        "org.Hs.eg.db\n(>= 3.13.0)"
+      ],
+      "Imports": [
+        "methods",
+        "AnnotationDbi"
+      ],
+      "LinkingTo": [
+        null
+      ],
+      "Suggests": [
+        "DBI",
+        "annotate",
+        "RUnit"
+      ],
+      "Enhances": [
+        null
+      ],
+      "License": "Artistic-2.0",
+      "License_is_FOSS": null,
+      "License_restricts_use": null,
+      "OS_type": null,
+      "NeedsCompilation": "no",
+      "Repository": "BioCann",
+      "Type": "source"
+    },
     "highr": {
       "Package": "highr",
       "Version": "0.12",
@@ -5685,6 +5764,38 @@
       "Author": "Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>), Oliver Keyes [ctb]",
       "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
       "Repository": "CRAN"
+    },
+    "org.Hs.eg.db": {
+      "Package": "org.Hs.eg.db",
+      "Version": "3.22.0",
+      "Source": "Repository",
+      "Priority": null,
+      "Depends": [
+        "R (>= 2.7.0)",
+        "methods",
+        "AnnotationDbi (>= 1.71.1)"
+      ],
+      "Imports": [
+        null
+      ],
+      "LinkingTo": [
+        null
+      ],
+      "Suggests": [
+        "DBI",
+        "annotate",
+        "RUnit"
+      ],
+      "Enhances": [
+        null
+      ],
+      "License": "Artistic-2.0",
+      "License_is_FOSS": null,
+      "License_restricts_use": null,
+      "OS_type": null,
+      "NeedsCompilation": "no",
+      "Repository": "BioCann",
+      "Type": "source"
     },
     "otel": {
       "Package": "otel",

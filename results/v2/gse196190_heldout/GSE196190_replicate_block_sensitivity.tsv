@@ -1,0 +1,2 @@
+model	retained_genes	analyzed_mechanism_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down	constituent_pathways_with_negative_mean_t	sensitivity_only
+replicate_series_block_inferred_from_submitter_filenames	18546	203	0.00670824647196908	Down	0.138304535718559	0.0691522678592793	5	TRUE

@@ -12,6 +12,13 @@ renv/library/
 # Derived intermediates should be regenerated, not versioned.
 data_intermediate/
 
+# Held-out GEO inputs are checksum-verified and fetched on demand by
+# scripts/24a_fetch_heldout_inputs.R.
+data_raw/gse196190/
+data_raw/gse229460/
+data_raw/gse287941/
+data_raw/gse4773/
+
 # Keep final outputs, but ignore transient logs.
 results/_*.txt
 *.Rout

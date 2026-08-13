@@ -1,0 +1,6 @@
+omitted_pathway	analyzed_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down
+Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	201	0.032038372236437	Down	0.256591507735176	0.128295753867588
+Intraflagellar transport	172	0.0365488318255374	Down	0.267794976744152	0.133897488372076
+Cargo trafficking to the periciliary membrane	152	0.0316049494676458	Down	0.184696506663785	0.0923482533318924
+Carboxyterminal post-translational modifications of tubulin	177	0.0283125113010094	Down	0.170166178140802	0.0850830890704008
+Hedgehog 'off' state	131	0.0236610380879548	Down	0.273236568515243	0.136618284257622

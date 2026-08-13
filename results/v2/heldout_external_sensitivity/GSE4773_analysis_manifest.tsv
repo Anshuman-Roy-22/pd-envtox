@@ -1,0 +1,14 @@
+quantity	value
+analysis_role	borderline_external_sensitivity
+primary_result_can_be_rescued	FALSE
+input_probes	54675
+unambiguously_mapped_symbols_after_probe_selection	20823
+signal_processing	deposited MAS5 or GCOS signal; log2(x + 1)
+probe_selection	highest all-sample mean per current HGNC symbol; lexical probe tie-break
+series_matrix_SHA256	5b944e95d019f4fad73dc8a6175050a17d64abc54ac6843c26989f2863b7a638
+Reactome_GMT_SHA256	89983d5c1f0af11c52edfeee7323eb425580ac6281d387a528562ab1787ce56b
+hgu133plus2.db_version	3.13.0
+hgu133plus2.sqlite_SHA256	2b0d31790d78c4a98135b20ce9cafdc87e114b615f7e970569dd7f4b7cd61724
+org.Hs.eg.db_version	3.22.0
+org.Hs.eg.sqlite_SHA256	8f036569a229574e9d23c73e8ccf7246e0797b64f9d224cc75fed5de891c8a09
+limma_version	3.66.0

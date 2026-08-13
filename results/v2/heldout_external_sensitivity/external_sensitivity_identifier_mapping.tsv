@@ -1,0 +1,11 @@
+accession	quantity	value
+GSE229460	input_rows	58037
+GSE229460	unique_unversioned_Ensembl_rows	57992
+GSE229460	mapped_Ensembl_rows	35798
+GSE229460	Ensembl_rows_with_multiple_current_symbols	571
+GSE229460	unique_HGNC_symbols	35643
+GSE287941	input_rows	34679
+GSE287941	unique_unversioned_Ensembl_rows	34679
+GSE287941	mapped_Ensembl_rows	25078
+GSE287941	Ensembl_rows_with_multiple_current_symbols	283
+GSE287941	unique_HGNC_symbols	24984

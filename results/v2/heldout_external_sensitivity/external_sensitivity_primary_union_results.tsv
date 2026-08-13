@@ -1,0 +1,3 @@
+accession	contrast	model	n_control	n_exposed	genes_after_filterByExpr	analyzed_mechanism_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down	constituent_pathways_with_negative_mean_t	passes_primary_style_criteria_as_sensitivity
+GSE229460	MPP_minus_control	differentiated LUHMES	3	3	13940	189	0.0178623302395156	Down	0.801082035826992	0.400541017913496	1	FALSE
+GSE287941	SixOHDA_minus_control	differentiated LUHMES	4	4	13336	187	0.0131365931510224	Down	0.784857105301326	0.392428552650663	1	FALSE

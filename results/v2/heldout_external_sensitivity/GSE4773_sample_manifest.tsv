@@ -1,0 +1,19 @@
+GSM	group	exposure	duration_weeks	model	confidence
+GSM107850	control_1w	vehicle	1	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107851	control_1w	vehicle	1	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107852	control_1w	vehicle	1	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107853	rotenone_1w	5 nM rotenone	1	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107854	rotenone_1w	5 nM rotenone	1	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107855	rotenone_1w	5 nM rotenone	1	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107856	control_2w	vehicle	2	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107857	control_2w	vehicle	2	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107858	control_2w	vehicle	2	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107859	rotenone_2w	5 nM rotenone	2	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107860	rotenone_2w	5 nM rotenone	2	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107861	rotenone_2w	5 nM rotenone	2	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107862	control_4w	vehicle	4	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107863	control_4w	vehicle	4	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107864	control_4w	vehicle	4	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107865	rotenone_4w	5 nM rotenone	4	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107866	rotenone_4w	5 nM rotenone	4	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only
+GSM107867	rotenone_4w	5 nM rotenone	4	SK-N-MC neuroblastoma line described by submitter as dopaminergic	borderline sensitivity only

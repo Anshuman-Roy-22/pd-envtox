@@ -1,0 +1,10 @@
+quantity	value
+input_Ensembl_rows	60676
+mapped_Ensembl_rows	36741
+unmapped_Ensembl_rows	23935
+Ensembl_rows_with_multiple_symbols	601
+unique_HGNC_symbols	36565
+genes_after_filterByExpr	17994
+org.Hs.eg.db_version	3.22.0
+org.Hs.eg.db_Ensembl_source_date	2025-Sep03
+org.Hs.eg.sqlite_SHA256	8f036569a229574e9d23c73e8ccf7246e0797b64f9d224cc75fed5de891c8a09

@@ -1,0 +1,16 @@
+accession	contrast	pathway	analyzed_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down	mean_moderated_t	negative_mean_moderated_t
+GSE4773	rotenone_1w_minus_control_1w	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	17	0.0631367975931953	Up	0.0444746107596505	0.977762694620175	0.929328667594277	FALSE
+GSE4773	rotenone_1w_minus_control_1w	Intraflagellar transport	54	0.0166712315482952	Up	0.110939675308999	0.944530162345501	0.292333414021054	FALSE
+GSE4773	rotenone_1w_minus_control_1w	Cargo trafficking to the periciliary membrane	67	0.0427717530149549	Up	0.207855715388562	0.896072142305719	0.289203891708936	FALSE
+GSE4773	rotenone_1w_minus_control_1w	Carboxyterminal post-translational modifications of tubulin	42	0.0193107250850656	Up	0.0431610640321793	0.97841946798391	0.488099437905938	FALSE
+GSE4773	rotenone_1w_minus_control_1w	Hedgehog 'off' state	99	0.0506589060535703	Up	0.00516227147037661	0.997418864264812	0.94701714910296	FALSE
+GSE4773	rotenone_2w_minus_control_2w	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	17	0.0631367975931958	Up	0.348479987852161	0.825760006073919	0.565958394406405	FALSE
+GSE4773	rotenone_2w_minus_control_2w	Intraflagellar transport	54	0.0166712315482952	Up	0.461321584345189	0.769339207827406	0.304262622099375	FALSE
+GSE4773	rotenone_2w_minus_control_2w	Cargo trafficking to the periciliary membrane	67	0.0427717530149552	Down	0.812236395593409	0.406118197796704	0.0400870822959287	FALSE
+GSE4773	rotenone_2w_minus_control_2w	Carboxyterminal post-translational modifications of tubulin	42	0.0193107250850655	Up	0.812853974560824	0.593573012719588	0.180828518975851	FALSE
+GSE4773	rotenone_2w_minus_control_2w	Hedgehog 'off' state	99	0.0506589060535718	Down	0.872396464719963	0.436198232359982	0.062163928902901	FALSE
+GSE4773	rotenone_4w_minus_control_4w	Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	17	0.0631367975931957	Up	0.0968522281904403	0.95157388590478	1.05171217877176	FALSE
+GSE4773	rotenone_4w_minus_control_4w	Intraflagellar transport	54	0.0166712315482959	Up	0.566754285233982	0.716622857383009	0.0756375759069135	FALSE
+GSE4773	rotenone_4w_minus_control_4w	Cargo trafficking to the periciliary membrane	67	0.0427717530149547	Up	0.379839761985571	0.810080119007214	0.255604278944856	FALSE
+GSE4773	rotenone_4w_minus_control_4w	Carboxyterminal post-translational modifications of tubulin	42	0.0193107250850654	Up	0.296812960342925	0.851593519828537	0.318884868840375	FALSE
+GSE4773	rotenone_4w_minus_control_4w	Hedgehog 'off' state	99	0.050658906053571	Up	0.0381818879309936	0.980909056034503	0.806442306261535	FALSE

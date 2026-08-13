@@ -1,0 +1,6 @@
+pathway	membership_genes	mapped_before_expression_filter	analyzed_genes	intergene_correlation	CAMERA_direction	CAMERA_p_two_sided	CAMERA_p_one_sided_down	mean_moderated_t	CAMERA_BH_five_two_sided	negative_mean_moderated_t
+Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	20	19	14	0.0340814911597424	Down	0.0703162843910746	0.0351581421955373	-1.54841639009723	0.175790710977686	TRUE
+Intraflagellar transport	54	54	52	0.00117756371539283	Down	0.0375786718377979	0.018789335918899	-0.85925910626677	0.175790710977686	TRUE
+Cargo trafficking to the periciliary membrane	71	70	63	0.0154761785624907	Down	0.231776400917382	0.115888200458691	-0.523278823288289	0.289720501146728	TRUE
+Carboxyterminal post-translational modifications of tubulin	46	45	38	0.0149220434899705	Down	0.375229725634144	0.187614862817072	-0.420615740704837	0.375229725634144	TRUE
+Hedgehog 'off' state	100	99	94	0.0507671553868546	Down	0.163238306614226	0.0816191533071132	-0.843996231174954	0.272063844357044	TRUE
