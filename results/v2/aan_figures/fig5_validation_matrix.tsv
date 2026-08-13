@@ -1,0 +1,21 @@
+claim	evidence_stage	status	statistic	source
+21-gene network panel	Retrospective nomination	Nominated	21 fixed genes	results/original20_table1.csv
+21-gene network panel	Additional model evidence	Not confirmed	0 FDR genes in GSE46798/GSE17542	results/v2/limma_confirmation/README.md
+21-gene network panel	Frozen primary test	Not tested	NA	NA
+21-gene network panel	Human disease evidence	Not confirmed	0 meta-FDR genes	results/v2/human_validation/frozen21_human_PD_summary.tsv
+21-gene network panel	Independent replication	Not tested	NA	NA
+Continuous network score	Retrospective nomination	Nominated	Minimum-distance proximity	results/robust_sporadic_candidates_ranked.csv
+Continuous network score	Additional model evidence	Mixed/weak	max |partial r| = 0.031	results/v2/continuous_network_test/continuous_network_predictive_summary.tsv
+Continuous network score	Frozen primary test	Not tested	NA	NA
+Continuous network score	Human disease evidence	Not confirmed	partial r = 0.010	results/v2/continuous_network_test/continuous_network_predictive_summary.tsv
+Continuous network score	Independent replication	Not tested	NA	NA
+Proteasome assembly	Retrospective nomination	Retrospective signal	meta-FDR = 0.0020	results/v2/reactome_convergence/Reactome_targeted_PD_family.tsv
+Proteasome assembly	Additional model evidence	Mixed/weak	GSE150005 rotenone p = 0.240; day-8 nominal support	results/v2/gse150005_multitoxicant/GSE150005_proteasome_CAMERA_summary.tsv
+Proteasome assembly	Frozen primary test	Not confirmed	GSE116280 p = 0.0958	results/v2/gse116280_rotenone/GSE116280_proteasome_all_contrasts.tsv
+Proteasome assembly	Human disease evidence	Confirmed	GSE178265 p = 0.0352	results/v2/human_sn_proteasome/pathway_model_results.tsv
+Proteasome assembly	Independent replication	Not confirmed	GSE243639 p = 0.5095	results/v2/human_sn_proteasome/pathway_model_results.tsv
+Cilium / Hedgehog / trafficking	Retrospective nomination	Nominated	GSE150005 pathway family	results/v2/gse150005_multitoxicant/GSE150005_exploratory_mechanism_summary.tsv
+Cilium / Hedgehog / trafficking	Additional model evidence	Not tested	NA	NA
+Cilium / Hedgehog / trafficking	Frozen primary test	Not confirmed	GSE196190 p = 0.1221	results/v2/gse196190_heldout/GSE196190_primary_mechanism_result.tsv
+Cilium / Hedgehog / trafficking	Human disease evidence	Not tested	NA	NA
+Cilium / Hedgehog / trafficking	Independent replication	Not confirmed	LUHMES p = 0.392 to 0.401	results/v2/heldout_external_sensitivity/external_sensitivity_primary_union_results.tsv

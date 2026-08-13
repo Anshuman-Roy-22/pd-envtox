@@ -1,0 +1,13 @@
+mechanism	stage	label	status	statistic
+Fixed panel	Original hypothesis	21-gene panel	Original	NA
+Fixed panel	External reanalysis	GSE46798 + GSE17542: not confirmed	Not confirmed	0 FDR-significant panel genes
+Fixed panel	Human disease evidence	GSE20141 + GSE7621: not confirmed	Not confirmed	meta-FDR genes = 0; matched-null p = 0.197
+Network score	Original hypothesis	Continuous proximity score	Original	NA
+Network score	External reanalysis	Negligible, non-generalizing association	Mixed/weak	maximum |partial r| = 0.031; 3 of 4 outcomes null
+Proteasome	Retrospective convergence	Three-model Reactome convergence	Retrospective signal	meta-FDR = 0.00203
+Proteasome	Frozen external test	GSE116280 mature LUHMES	Not confirmed	one-sided-down p = 0.0958
+Proteasome	Human primary	GSE178265 DA nuclei	Confirmed	one-sided-down p = 0.0352
+Proteasome	Independent replication	GSE243639 DA neurons	Not confirmed	one-sided-down p = 0.5095
+Cilium/Hedgehog/trafficking	Retrospective convergence	GSE150005 nomination	Nominated	retrospective only
+Cilium/Hedgehog/trafficking	Frozen external test	GSE196190 MPP+	Not confirmed	one-sided-down p = 0.1221
+Cilium/Hedgehog/trafficking	Independent replication	External LUHMES sensitivities	Not confirmed	GSE229460 p = 0.401; GSE287941 p = 0.392
