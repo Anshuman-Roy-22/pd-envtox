@@ -1,0 +1,34 @@
+{
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124703&targ=self&form=text&view=full",
+  "retrieved_utc": "2026-09-13",
+  "fields": {
+    "title": [
+      "CRISPR-based multimodal genetic screens in human iPSC-derived neurons"
+    ],
+    "pubmed_id": [
+      "31422865"
+    ],
+    "overall_design": [
+      "The Quant-seq experiments were performed using iPSC-derived neurons at Day 14, Day 21 and Day 28 of differentiation with 2 replicates for each sample. The CROP-seq experiments were performed using iPSCs and Day 7 neurons infected by a library of sgRNAs. Two lanes of 10X platform were used for each CROP-seq sample."
+    ],
+    "sample_id": [
+      "GSM3543612",
+      "GSM3543613",
+      "GSM3543614",
+      "GSM3543615",
+      "GSM3543616",
+      "GSM3543617",
+      "GSM3543618",
+      "GSM3543619",
+      "GSM3543620",
+      "GSM3543621",
+      "GSM3543622",
+      "GSM3543623",
+      "GSM3543624",
+      "GSM3543625"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE124nnn/GSE124703/suppl/GSE124703_RAW.tar"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152988&targ=self&form=text&view=full",
+  "retrieved_utc": "2026-09-13",
+  "fields": {
+    "title": [
+      "Genome-wide CRISPRi/a screens in human neurons link lipid imbalance to ferroptosis"
+    ],
+    "pubmed_id": [
+      "34031600"
+    ],
+    "overall_design": [
+      "For the CROP-seq experiments, we included 184 genes for CRISPRi and 100 genes for CRISPRa, which were hits in at least one of our genome-wide pooled screens and were also associated with human neurodegenerative diseases (NDDs). We curated a list of NDD-associated genes based on the literature and the DisGeNET database (https://www.disgenet.org/). The CROP-seq libraries included 2 sgRNAs per gene plus 6 non-targeting control sgRNAs, for a total of 374 sgRNAs for CRISPRi and 206 sgRNAs for CRISPRa. Top and bottom strands of sgRNA oligos were synthesized (Integrated DNA Technologies) and annealed in an arrayed format. The annealed sgRNAs were then pooled in equal amounts and ligated into our optimized CROP-seq vector (Gilbert et al., 2014).The CROP-seq experiments were carried out similarly as previously described (Tian et al., 2019). Briefly, Day 0 CRISPRi and CRISPRa neurons were infected by the corresponding CROP-seq sgRNA library at a MOI of 0.1-0.2, followed by puromycin selection at 4 \u00b5g/ml for 3 days and recovery. On Day 10, neurons were dissociated with Papain and approximately 98,000 CRISPRi neurons and 50,000 CRISPRa neurons were loaded into 10X chips with about 25,000 input cells per lane. Sample preparations were performed using the ChromiumNext GEM Single Cell 3\u02b9 Reagent Kits v3.1 (10X Genomics; Cat. No.PN-1000121) according to the manufacturer\u2019s protocol. To facilitate sgRNA assignment, sgRNA-containing transcripts were additionally amplified by hemi-nested PCR reactions as described (Tian et al., 2019). The sgRNA-enrichment libraries were separately indexed and sequenced as spike-ins alongside the whole- transcriptome scRNA-seq libraries using a NovaSeq 6000 using the following configuration: Read 1: 28, i7 index: 8, i5 index: 0, Read 2: 91.  3\u2032-tag RNA-seq was performed to obtain gene expression profiles of WT and PSAP KO neurons cultured in the medium lack of antioxidants. Each genotype has 3 replicates. Raw sequencing reads from 3\u2032-tag RNA-seq were mapped to the human reference transcriptome (GRCh38, Ensembl Release 97) using Salmon (v.0.14.139) with the \u2018\u2013noLengthCorrection\u2019 option to obtain transcript abundance counts. Gene-level count estimates were obtained using tximport (v.1.8.040) with default settings. Subsequently, genes with more than 10 counts were retained for differential gene-expression analysis, and adjusted P values (Padj) were calculated using DESeq2 (v.1.20.041)."
+    ],
+    "sample_id": [
+      "GSM4632022",
+      "GSM4632023",
+      "GSM4632025",
+      "GSM4632026",
+      "GSM4632027",
+      "GSM4632028",
+      "GSM4632030",
+      "GSM4632031"
+    ],
+    "supplementary_file": [
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152988/suppl/GSE152988_RAW.tar",
+      "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152988/suppl/GSE152988_WT_vs_PSAPKO.csv.gz"
+    ]
+  }
+}
