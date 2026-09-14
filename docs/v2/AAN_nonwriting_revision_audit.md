@@ -559,3 +559,33 @@ The non-writing work can be marked complete when all five conditions are true:
 3. A master V2 command can acquire inputs and reproduce the analyses.
 4. Release checksums and environment records cover all final outputs.
 5. A clean-clone verification passes and the verified branch state is committed.
+
+## 2026-09-14: neuronal perturbation follow-up
+
+After the original overhaul, a separate feasibility audit evaluated public
+neuronal perturbation data for an experimentally benchmarked computational
+extension. Commit `3ab219d` records the initial metadata-only audit. The 2021
+transcriptomic perturbation subset has no mapped targets among the eight shared
+proteasome leading-edge genes. Its genome-wide survival tables do cover all eight.
+
+Commit `6d493a3` froze a bounded survival reanalysis before inspecting the target
+phenotypes. It tests relative dependence after antioxidant withdrawal against
+gene sets matched on baseline neuronal dependence and promoter row count.
+The primary two-sided empirical P value is 0.14558. The 10- and 40-bin
+sensitivities are also null (0.13380 and 0.13694), as is the exploratory CRISPRa
+comparison (0.58823). The full pathway comparison is not evaluable under its
+frozen minimum matched-control rule. No thresholds or target sets were changed.
+
+This is a secondary analysis of published laboratory measurements, not a new
+experiment, a replicated PD mechanism, an experimental interaction test, or a
+validated AI prediction. The original human and toxicant conclusions remain
+unchanged. Details, code, dependency pins, deterministic reference draws and
+verification are in `results/v2/neuronal_survival/README.md` and
+`scripts/neuronal_survival_reanalysis.py`.
+
+The older GSE124703 transcriptomic route still requires the original Table S2
+guide-sequence key; public attachment downloads failed in this environment.
+The precise dependency and access attempts are recorded in
+`docs/v2/perturbation_feasibility/followup_status.md`. No State or GEARS model
+has been trained. This follow-up does not close the existing repository-wide
+master-runner and R clean-clone verification gates.

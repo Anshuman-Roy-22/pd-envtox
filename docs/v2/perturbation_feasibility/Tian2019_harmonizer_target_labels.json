@@ -65,7 +65,23 @@
       "RAB7A"
     ],
     "pathway_overlap": [],
-    "shared8_overlap": []
+    "shared8_overlap": [],
+    "individual_targets_in_retained_labels": [
+      "HACD2",
+      "MAP3K12",
+      "MAT2A",
+      "MMAB",
+      "MVK",
+      "PPCDC",
+      "PPP2R1A",
+      "RAB7A",
+      "RFK",
+      "UBA1",
+      "UQCRQ",
+      "UROD"
+    ],
+    "pathway_overlap_after_splitting_labels": [],
+    "shared8_overlap_after_splitting_labels": []
   },
   "iPSC": {
     "source_url": "https://raw.githubusercontent.com/sanderlab/scPerturb/master/website/tables/pairwise_edist_TianKampmann2019_iPSC.csv",
@@ -107,6 +123,18 @@
       "UBA1_PPP2R1A_MAT2A"
     ],
     "pathway_overlap": [],
-    "shared8_overlap": []
+    "shared8_overlap": [],
+    "individual_targets_in_retained_labels": [
+      "HMGCS1",
+      "MAT2A",
+      "MMAB",
+      "MVK",
+      "PMVK",
+      "PPP2R1A",
+      "UBA1",
+      "UROD"
+    ],
+    "pathway_overlap_after_splitting_labels": [],
+    "shared8_overlap_after_splitting_labels": []
   }
 }

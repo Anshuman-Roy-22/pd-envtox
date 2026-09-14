@@ -1,0 +1,7 @@
+comparison	baseline_bins	bin	multirow	targets	target_n	control_n	control_mean_delta
+secondary_shared8_CRISPRa	20	2	0	PSMB4	1	875	0.17983737356187254
+secondary_shared8_CRISPRa	20	3	0	PSMD4	1	868	0.18439018984635039
+secondary_shared8_CRISPRa	20	4	0	PSMG1	1	875	0.15160530907937181
+secondary_shared8_CRISPRa	20	7	0	PSMA4;PSMD1	2	836	0.076762176591988807
+secondary_shared8_CRISPRa	20	9	0	POMP;PSMC5	2	821	0.0040229793627190556
+secondary_shared8_CRISPRa	20	15	0	PSMD2	1	879	-0.16076945423473071

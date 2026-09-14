@@ -1,0 +1,17 @@
+{
+  "input_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41593-021-00862-0/MediaObjects/41593_2021_862_MOESM3_ESM.xlsx",
+  "input_sha256": "82785da6b6fd4f9732a1e6bd701ab7fc2aa4d12f0d33fddc676054e37841a464",
+  "analysis_plan_commit": "6d493a3",
+  "primary_label": "NO_CONDITIONAL_RANK_SHIFT",
+  "interpretation_scope": "Conditional gene-set reference test on published summary phenotypes; not independent PD replication or an experimental interaction test.",
+  "candidate_manifest_sha256": "ef8e319431373b497aa639105b74b9b7c9fdced0d9dc6de3a9f1407f64129d63",
+  "analysis_plan_sha256": "87c5745a152f2012dae221c9ad4b35949e937b28b0c753c479e5c354e6e9aa80",
+  "script_sha256": "a385487a6f4c1f7d2afe9f6a5a12b464e49f2577e5dd5ff919afa35bef6034c9",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "openpyxl": "3.1.5"
+  }
+}

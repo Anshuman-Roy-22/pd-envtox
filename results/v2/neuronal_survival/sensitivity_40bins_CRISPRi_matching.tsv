@@ -1,0 +1,9 @@
+comparison	baseline_bins	bin	multirow	targets	target_n	control_n	control_mean_delta
+sensitivity_40bins_CRISPRi	40	0	0	PSMD4	1	462	0.035680599867460257
+sensitivity_40bins_CRISPRi	40	1	0	PSMA4	1	455	0.059127335361494122
+sensitivity_40bins_CRISPRi	40	2	0	PSMG1	1	453	0.08101512478978716
+sensitivity_40bins_CRISPRi	40	3	0	PSMD1	1	448	0.10834941445160703
+sensitivity_40bins_CRISPRi	40	4	0	PSMC5	1	446	0.12733955335761707
+sensitivity_40bins_CRISPRi	40	26	0	PSMD2	1	412	-0.049965327774794753
+sensitivity_40bins_CRISPRi	40	29	0	PSMB4	1	421	-0.10733920018277908
+sensitivity_40bins_CRISPRi	40	34	0	POMP	1	429	-0.15100084531125416

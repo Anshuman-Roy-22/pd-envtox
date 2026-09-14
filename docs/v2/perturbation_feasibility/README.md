@@ -3,7 +3,15 @@
 Metadata retrieved: 2026-09-13. Reproduction verified: 2026-09-14. Existing scientific source: commit
 `4b2c005bcc93ce28c3ba4c52fa71785fd7d05e1e` on `aan-v2-overhaul`.
 
-**Decision: the computational extension is in metadata feasibility. No new
+**Update, 2026-09-14:** The 2021 survival screens cover all eight lead genes.
+A separately committed protocol and completed CPU reanalysis are in
+[`neuronal_survival_frozen_plan.md`](../neuronal_survival_frozen_plan.md) and
+[`results/v2/neuronal_survival/README.md`](../../../results/v2/neuronal_survival/README.md).
+The primary conditional rank-change test is nonsignificant (P = 0.14558).
+The AI transcriptome benchmark remains unestablished. The record below
+preserves the initial audit; follow-up details are in `followup_status.md`.
+
+**Initial decision: the computational extension is in metadata feasibility. No new
 biological result, trained model, final dataset selection, or frozen statistical
 analysis plan is claimed.** The completed V2 results retain their original
 interpretation, including the null independent human replication.
