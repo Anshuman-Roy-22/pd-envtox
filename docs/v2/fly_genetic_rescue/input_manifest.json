@@ -1,0 +1,20 @@
+{
+  "paper_doi": "10.1038/s41467-026-70303-8",
+  "author_code_commit": "82f71c1adc356d1819f38e32f97dc0d42afce091",
+  "files": [
+    {
+      "path": "source_data.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-70303-8/MediaObjects/41467_2026_70303_MOESM12_ESM.xlsx",
+      "bytes": 1438076,
+      "sha256": "b3073dcd05f61f84088289cff933970974b84c0dde1c2212d42e24fe5b5bc78e",
+      "role": "primary interaction matrix and intervention outcomes"
+    },
+    {
+      "path": "supplementary_dataset_1.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-70303-8/MediaObjects/41467_2026_70303_MOESM9_ESM.xlsx",
+      "bytes": 91762,
+      "sha256": "0d715014a1bd95db647024488a815148acb2e55c54ea3e08334556df1da612c7",
+      "role": "coverage audit of author interaction summaries"
+    }
+  ]
+}

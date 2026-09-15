@@ -23,6 +23,9 @@ data_raw/human_sn_proteasome/
 # Public PD intervention snapshot, acquired with a checksum-locked manifest.
 data_raw/functional_rescue/
 
+# Published experimental inputs for the genotype-response benchmark.
+data_raw/fly_genetic_rescue/
+
 # Keep final outputs, but ignore transient logs.
 results/_*.txt
 *.Rout
