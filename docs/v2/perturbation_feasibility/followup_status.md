@@ -1,5 +1,41 @@
 # Feasibility follow-up, 2026-09-14
 
+## 2026-09-15 update: uploaded key checked; original route unsupported
+
+The user supplied `NIHMS1535621-supplement-8.xlsx`. Its SHA256 is
+`149ec75dda0adaae6238c00d3ac5ecd7a308a4d910e4f23359247eb0372e1247`.
+The file is now preserved unmodified in `data_raw/perturbation_guides/`.
+Only guide-name and protospacer columns were used, not phenotype columns.
+
+- 183 unique 20-nt guides; 89 non-control gene labels; eight control guides.
+- Zero of the 52 fixed Proteasome assembly genes; zero of the eight shared leads.
+- Both neuronal raw mapping files contain 55 key-matched sequences with
+  positive UMIs, corresponding to 26 non-control genes plus control guides.
+- Two other 20-nt sequences have positive UMIs in both files and are not in
+  the uploaded key: `GCACCTCCAGATCTCACTAG` and `GGCTCCAGTTAACGCAGTCG`.
+  Their identities are unresolved, not assumed to be controls or candidates.
+- The key accounts for 97.24% and 97.74% of positive UMIs associated with
+  valid 20-nt sequences in the two files. Unprocessed labels are counted
+  separately. These percentages are mapping coverage, not perturbation QC.
+
+The uploaded key therefore resolves the access dependency but does not
+establish a usable fixed-target transcriptomic benchmark. Even assigning
+the two unknown guides to candidate genes could not establish coverage of
+all eight leads. This is a feasibility failure, not another biological null.
+
+Reproduce with `scripts/audit_tian2019_guide_key.py`; see
+`Tian2019_uploaded_guide_key_coverage.json` and
+`Tian2019_guide_identities.tsv`. No State/GEARS model was trained.
+The survival P value and all earlier conclusions remain unchanged.
+
+The user explicitly requested a reapproach if the key did not help. A new
+functional-rescue design and an independently sourced intervention-data
+inventory are recorded in `docs/v2/functional_rescue/`. This authorizes a
+new exploratory question, not retroactive changes to the completed plans.
+
+The 2026-09-14 sections below document the prior state; their missing-file
+description is superseded by this update.
+
 ## Completed survival branch
 
 The original 2021 publisher workbook and guide-library supplement were obtained.

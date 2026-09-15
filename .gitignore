@@ -20,6 +20,9 @@ data_raw/gse287941/
 data_raw/gse4773/
 data_raw/human_sn_proteasome/
 
+# Public PD intervention snapshot, acquired with a checksum-locked manifest.
+data_raw/functional_rescue/
+
 # Keep final outputs, but ignore transient logs.
 results/_*.txt
 *.Rout

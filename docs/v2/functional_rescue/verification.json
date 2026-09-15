@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-09-15",
+  "python": "3.12.14",
+  "openpyxl": "3.1.5",
+  "source_files_verified": 16,
+  "fresh_download_inventory_byte_identical": true,
+  "guide_audit_outputs_byte_identical": true,
+  "uploaded_workbook_preserved_byte_identical": true,
+  "biological_effects_computed": false,
+  "model_trained": false,
+  "scope": "Acquisition and metadata verification only; full repository R reproduction remains unfinished."
+}

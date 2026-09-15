@@ -1,0 +1,107 @@
+{
+  "date_utc": "2026-09-15",
+  "source_repository": "https://github.com/Ksilink/Notebooks",
+  "source_commit": "1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba",
+  "source_commit_date": "2025-06-25T12:50:35Z",
+  "source_tree": "d257f91dfd9d942b40e48513c5f75c972362c00f",
+  "source_paper": "https://doi.org/10.1038/s41598-025-14735-0",
+  "status": "Feasibility snapshot; no outcome analysis or model training completed",
+  "files": [
+    {
+      "path": "Fig1/Notebooks/Exp67_4plates_controls.csv",
+      "bytes": 166179,
+      "sha256": "5204c8288e11a6dbf3d6f5129d5c7cbb27ed9c4697a2bb7164109a5f863017c6",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig1/Notebooks/Exp67_4plates_controls.csv"
+    },
+    {
+      "path": "Fig2/Compound_overview.xlsx",
+      "bytes": 15319,
+      "sha256": "e11f84ffecc3bf775ccfba481045565d32cf07d3d3912d0503af9e81dbae4ad6",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig2/Compound_overview.xlsx"
+    },
+    {
+      "path": "Fig2/Notebooks/1_Primary_Screen_Data_Classification/all_raw_data.csv",
+      "bytes": 5299039,
+      "sha256": "94e0aedde24b84fcf384c45662c9918c3984829b5962308fe389709b36175306",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig2/Notebooks/1_Primary_Screen_Data_Classification/all_raw_data.csv"
+    },
+    {
+      "path": "Fig2/Notebooks/1_Primary_Screen_Data_Classification/data_for_compound_mapping.csv",
+      "bytes": 265377,
+      "sha256": "a8c7af4f3d47029922fe351a94ee2321edae0c97a2c258b4e44c2d2b55672f72",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig2/Notebooks/1_Primary_Screen_Data_Classification/data_for_compound_mapping.csv"
+    },
+    {
+      "path": "Fig3/Notebooks/Exp72_DRC.csv",
+      "bytes": 630280,
+      "sha256": "1ce75d49dfb0de3a188e511b7c9bc34b6ec173f73ba45b0698fb5a4fcf4628d7",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig3/Notebooks/Exp72_DRC.csv"
+    },
+    {
+      "path": "Fig3/Notebooks/Notebook_DRC.ipynb",
+      "bytes": 1343325,
+      "sha256": "5270961cb1a06083ca4e5ec22247ba48ba0a4c1168769ff28803b8662e419cb9",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig3/Notebooks/Notebook_DRC.ipynb"
+    },
+    {
+      "path": "Fig4/Notebooks/JC1_all_compounds_for_plotting.csv",
+      "bytes": 240820,
+      "sha256": "64460fe7a5d802fbbfd8ac19f2eb0ed296c716fbc1a66dc664d60ce9ef4544e0",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig4/Notebooks/JC1_all_compounds_for_plotting.csv"
+    },
+    {
+      "path": "Fig4/Notebooks/ROS_all_compounds_for_plotting.csv",
+      "bytes": 364994,
+      "sha256": "89f36c591601ed5546382779fc2449125783c27260c75e90b657e5a354e329f3",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig4/Notebooks/ROS_all_compounds_for_plotting.csv"
+    },
+    {
+      "path": "Fig4/Raw data/JC1_all_compounds.xlsx",
+      "bytes": 147271,
+      "sha256": "d2c80e4caa611fcc6a6167d4c9032d1871e0797957a4dbedf0e000a874251d02",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig4/Raw%20data/JC1_all_compounds.xlsx"
+    },
+    {
+      "path": "Fig4/Raw data/Notebook_JC1_AllCompounds_Create_tidy_df.ipynb",
+      "bytes": 20115,
+      "sha256": "a7abf864b75a523d57c568f83b5f7bdfc709907088d3bcca011d00f139ab27ac",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig4/Raw%20data/Notebook_JC1_AllCompounds_Create_tidy_df.ipynb"
+    },
+    {
+      "path": "Fig4/Raw data/Notebook_ROS_AllCompounds_Create_tidy_df.ipynb",
+      "bytes": 39017,
+      "sha256": "b8f8cc9e72bc483b0c517cfebbc67ec2d3d151cac473b1de39648b76ec637dc0",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig4/Raw%20data/Notebook_ROS_AllCompounds_Create_tidy_df.ipynb"
+    },
+    {
+      "path": "Fig4/Raw data/ROS_all_compounds.xlsx",
+      "bytes": 121325,
+      "sha256": "10a8863457ff00a1f0cb989fefa419fd6e8689dc60c88763635b9168debc15bc",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig4/Raw%20data/ROS_all_compounds.xlsx"
+    },
+    {
+      "path": "Fig5/Raw data/Similar_compounds_CellViability.csv",
+      "bytes": 2952,
+      "sha256": "1ccae10370199d03cf19ac56ffb753eb3607f1331e2e624d924540331066a444",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig5/Raw%20data/Similar_compounds_CellViability.csv"
+    },
+    {
+      "path": "Fig6/Raw data/Proteasome_Caspase_raw_data.csv",
+      "bytes": 1005,
+      "sha256": "3efa20c3bf8549a6fa6f973fa67dbbc6076228e8417f38dbdb28cab63223d8b5",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig6/Raw%20data/Proteasome_Caspase_raw_data.csv"
+    },
+    {
+      "path": "Fig6/Raw data/Proteasome_Chemotryp_raw_data.csv",
+      "bytes": 1015,
+      "sha256": "b3d942802e1203a90243f86785ab4205898729ac3da8d04bc6ee1eace044acae",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/Fig6/Raw%20data/Proteasome_Chemotryp_raw_data.csv"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1033,
+      "sha256": "74a9585273cec57eea78a309312678dfe9e5aa3b879b84c6535179036fb87457",
+      "url": "https://raw.githubusercontent.com/Ksilink/Notebooks/1ed064f3d7881e7f520ae6afefcc8aed75ffc6ba/Neuro/PD_MorphProfileScreening/README.md"
+    }
+  ]
+}

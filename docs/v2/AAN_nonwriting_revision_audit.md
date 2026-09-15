@@ -589,3 +589,25 @@ The precise dependency and access attempts are recorded in
 `docs/v2/perturbation_feasibility/followup_status.md`. No State or GEARS model
 has been trained. This follow-up does not close the existing repository-wide
 master-runner and R clean-clone verification gates.
+
+## 2026-09-15: uploaded guide key and mechanistic redesign
+
+The original Tian 2019 guide key is now supplied, preserved and audited.
+None of its 89 non-control gene labels belongs to the fixed 52-gene pathway
+or the shared eight-gene lead. Both neuronal raw mappings contain 55
+identified guide sequences and two unidentified 20-nt sequences. The latter
+remain explicitly unresolved. No supported fixed-target perturbation
+benchmark is established. Source and code checksums are recorded.
+
+At the user's request, a distinct exploratory functional-rescue question
+was scoped using public drug-treated SNCA-triplication and isogenic-control
+human dopaminergic-neuron data. Sixteen original source files (8.66 MB) were
+downloaded and checksum-locked. The inventory distinguishes morphological
+features, viability, oxidative stress and mitochondrial assays and records
+missing replicate identifiers and source-version discrepancies.
+
+This is a data-qualified redesign, not a completed statistical analysis,
+newly discovered rescue mechanism, independent replication, or trained AI
+model. Details, exact limits and the next implementation specification are
+in `docs/v2/functional_rescue/README.md`. The existing null and positive
+results, and unfinished master-runner/R verification gates, are unchanged.

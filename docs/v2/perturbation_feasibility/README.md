@@ -1,5 +1,16 @@
 # Neuronal perturbation extension: initial feasibility audit
 
+**Update, 2026-09-15:** The user supplied the original 2019 Table S2. Its
+183 guides name 89 genes plus controls, with zero of the fixed 52 pathway
+genes and zero of the shared eight. In each neuronal mapping file, 55 guide
+sequences map to the key (26 non-control genes); two additional 20-nt
+sequences remain unidentified. Thus no fixed-target benchmark is established.
+Do not infer the unidentified genes or claim their absence has been proven.
+The source workbook, reproducible audit and complete mapping counts are now
+recorded. See `followup_status.md` and
+[`../functional_rescue/README.md`](../functional_rescue/README.md) for the
+separately authorized redesign. Earlier records below remain historical.
+
 Metadata retrieved: 2026-09-13. Reproduction verified: 2026-09-14. Existing scientific source: commit
 `4b2c005bcc93ce28c3ba4c52fa71785fd7d05e1e` on `aan-v2-overhaul`.
 

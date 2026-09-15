@@ -1,0 +1,129 @@
+{
+  "audit_date_utc": "2026-09-15",
+  "source_paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6813890/",
+  "source_workbook_sha256": "149ec75dda0adaae6238c00d3ac5ecd7a308a4d910e4f23359247eb0372e1247",
+  "source_dimensions": [
+    184,
+    10
+  ],
+  "scope": "guide identity columns and guide-enrichment read/UMI counts only",
+  "symbol_policy": "exact symbols; no inferred or unverified aliases",
+  "guides": 183,
+  "noncontrol_gene_labels": 89,
+  "nontargeting_guides": 8,
+  "workbook_pathway_targets": [],
+  "workbook_shared8_targets": [],
+  "files": {
+    "GSM3543624_neuron_1_sgRNA_mapping.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3543nnn/GSM3543624/suppl/GSM3543624_neuron_1_sgRNA_mapping.txt.gz",
+      "sha256": "bc2bb1718e9a6e884631c97a0750bf4c245dfbe8a2b198cd246511cf41cefd60",
+      "counts": {
+        "key_rows_positive": 471109,
+        "key_umis": 1196192,
+        "rows": 1970727,
+        "unmapped_20nt_rows_positive": 18542,
+        "unmapped_20nt_umis": 33892,
+        "unprocessed_rows_positive": 47653,
+        "unprocessed_umis": 58965
+      },
+      "positive_distinct_sequences": {
+        "key": 55,
+        "unmapped_20nt": 2,
+        "unprocessed": 28664
+      },
+      "mapped_noncontrol_gene_labels": [
+        "ATP5A1",
+        "ATP5B",
+        "FECH",
+        "GSR",
+        "HACD2",
+        "HMGCS1",
+        "KIF1A",
+        "LSS",
+        "MAP3K12",
+        "MAT2A",
+        "MMAB",
+        "MVK",
+        "NDUFA1",
+        "PGGT1B",
+        "PMVK",
+        "PPCDC",
+        "PPP1R8",
+        "PPP2R1A",
+        "RAB7A",
+        "RFK",
+        "SEPSECS",
+        "SQLE",
+        "TARS2",
+        "UBA1",
+        "UQCRQ",
+        "UROD"
+      ],
+      "pathway_targets": [],
+      "shared8_targets": [],
+      "unmapped_20nt_positive_umis": {
+        "GCACCTCCAGATCTCACTAG": 10845,
+        "GGCTCCAGTTAACGCAGTCG": 23047
+      }
+    },
+    "GSM3543625_neuron_2_sgRNA_mapping.txt.gz": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3543nnn/GSM3543625/suppl/GSM3543625_neuron_2_sgRNA_mapping.txt.gz",
+      "sha256": "3cfe2b3eaf8fac60c4eebe6b33e19754e7676706fa64bccc44e7002d223e760a",
+      "counts": {
+        "key_rows_positive": 445407,
+        "key_umis": 1167580,
+        "rows": 1774219,
+        "unmapped_20nt_rows_positive": 15314,
+        "unmapped_20nt_umis": 27003,
+        "unprocessed_rows_positive": 38141,
+        "unprocessed_umis": 48565
+      },
+      "positive_distinct_sequences": {
+        "key": 55,
+        "unmapped_20nt": 2,
+        "unprocessed": 22380
+      },
+      "mapped_noncontrol_gene_labels": [
+        "ATP5A1",
+        "ATP5B",
+        "FECH",
+        "GSR",
+        "HACD2",
+        "HMGCS1",
+        "KIF1A",
+        "LSS",
+        "MAP3K12",
+        "MAT2A",
+        "MMAB",
+        "MVK",
+        "NDUFA1",
+        "PGGT1B",
+        "PMVK",
+        "PPCDC",
+        "PPP1R8",
+        "PPP2R1A",
+        "RAB7A",
+        "RFK",
+        "SEPSECS",
+        "SQLE",
+        "TARS2",
+        "UBA1",
+        "UQCRQ",
+        "UROD"
+      ],
+      "pathway_targets": [],
+      "shared8_targets": [],
+      "unmapped_20nt_positive_umis": {
+        "GCACCTCCAGATCTCACTAG": 10835,
+        "GGCTCCAGTTAACGCAGTCG": 16168
+      }
+    }
+  },
+  "decision": "NO_SUPPORTED_FIXED_TARGET_BENCHMARK",
+  "limitations": [
+    "Unidentified guide sequences are retained, not assigned guessed genes.",
+    "No candidate targets are established in the mapped subset.",
+    "This does not prove all unidentified sequences lack pathway targets.",
+    "Guide detection is not expression QC or a biological replicate count."
+  ]
+}
