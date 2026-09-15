@@ -1,0 +1,414 @@
+{
+  "scope": "Design labels and input hashes only; no drug effects calculated",
+  "primary_wells": 4800,
+  "primary_compounds": 1020,
+  "primary_plates": [
+    "PD-SC1-01",
+    "PD-SC1-02",
+    "PD-SC1-03",
+    "PD-SC1-04",
+    "PD-SC2-01",
+    "PD-SC2-02",
+    "PD-SC2-03",
+    "PD-SC2-04",
+    "PD-SC3-01",
+    "PD-SC3-02",
+    "PD-SC3-03",
+    "PD-SC3-04",
+    "PD-SC4-01",
+    "PD-SC4-02",
+    "PD-SC4-03",
+    "PD-SC4-04",
+    "PD-SC5-01",
+    "PD-SC5-02",
+    "PD-SC5-03",
+    "PD-SC5-04"
+  ],
+  "followup_wells": 930,
+  "followup_compounds": 33,
+  "followup_plates": [
+    "PD-SCD-01",
+    "PD-SCD-02",
+    "PD-SCD-03",
+    "PD-SCD-04"
+  ],
+  "matched_compounds": 31,
+  "unmatched": [
+    {
+      "SC_cat": "PRO",
+      "followup_name": "Prostratin",
+      "status": "UNMATCHED_CATALOGUE"
+    },
+    {
+      "SC_cat": "S1021",
+      "followup_name": "Dasatinib",
+      "status": "UNMATCHED_CATALOGUE"
+    }
+  ],
+  "primary_control_wells": [
+    {
+      "Plate": "PD-SC1-01",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-01",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-01",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-02",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-02",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-02",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-03",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-03",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-03",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-04",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-04",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC1-04",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-01",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-01",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-01",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-02",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-02",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-02",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-03",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-03",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-03",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-04",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-04",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC2-04",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-01",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-01",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-01",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-02",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-02",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-02",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-03",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-03",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-03",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-04",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-04",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC3-04",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-01",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-01",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-01",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-02",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-02",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-02",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-03",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-03",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-03",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-04",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-04",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC4-04",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-01",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-01",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-01",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-02",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-02",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-02",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-03",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-03",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-03",
+      "tags": "WT - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-04",
+      "tags": "Mut - DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-04",
+      "tags": "Mut - PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SC5-04",
+      "tags": "WT - DMSO",
+      "n": 12
+    }
+  ],
+  "followup_control_wells": [
+    {
+      "Plate": "PD-SCD-01",
+      "tags": "Mut;DMSO",
+      "n": 11
+    },
+    {
+      "Plate": "PD-SCD-01",
+      "tags": "Mut;PRO",
+      "n": 10
+    },
+    {
+      "Plate": "PD-SCD-01",
+      "tags": "WT;DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-02",
+      "tags": "Mut;DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-02",
+      "tags": "Mut;PRO",
+      "n": 10
+    },
+    {
+      "Plate": "PD-SCD-02",
+      "tags": "WT;DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-03",
+      "tags": "Mut;DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-03",
+      "tags": "Mut;PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-03",
+      "tags": "WT;DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-04",
+      "tags": "Mut;DMSO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-04",
+      "tags": "Mut;PRO",
+      "n": 12
+    },
+    {
+      "Plate": "PD-SCD-04",
+      "tags": "WT;DMSO",
+      "n": 12
+    }
+  ],
+  "biological_replicate_policy": "Plate groups are recorded; biological/donor independence is not inferred from plate names or biochemical rows.",
+  "source_exclusions": "The author DRC notebook removes Alectinib explicitly. This analysis retains deposited Alectinib and matches its actual 2.5 uM primary dose; no supplied reason establishes its invalidity."
+}
