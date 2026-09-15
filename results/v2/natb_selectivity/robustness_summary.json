@@ -1,0 +1,48 @@
+{
+  "status": "EXPLORATORY_FOLLOWUP",
+  "proteome_sensitivity_coverage": [
+    {
+      "analysis": "equal_backbones_at_least_8_runs",
+      "tested_genes": 3541,
+      "complete": false,
+      "requires_two_backbones": true,
+      "SNCA_evaluable": false
+    },
+    {
+      "analysis": "equal_backbones_complete_10_runs",
+      "tested_genes": 2183,
+      "complete": true,
+      "requires_two_backbones": true,
+      "SNCA_evaluable": false
+    }
+  ],
+  "backbone_direction_counts": [
+    {
+      "analysis": "equal_backbones_at_least_8_runs",
+      "gene": "SYP",
+      "backbones": 4,
+      "down": 4
+    },
+    {
+      "analysis": "equal_backbones_at_least_8_runs",
+      "gene": "SYT1",
+      "backbones": 17,
+      "down": 16
+    },
+    {
+      "analysis": "equal_backbones_complete_10_runs",
+      "gene": "SYP",
+      "backbones": 1,
+      "down": 1
+    },
+    {
+      "analysis": "equal_backbones_complete_10_runs",
+      "gene": "SYT1",
+      "backbones": 14,
+      "down": 14
+    }
+  ],
+  "independent_synaptic_function_replication": false,
+  "sample_level_neurotransmission_measured": false,
+  "primary_classification_unchanged": true
+}

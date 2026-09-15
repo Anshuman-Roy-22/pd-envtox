@@ -1,0 +1,12 @@
+{
+  "classification": "SELECTIVITY_NOT_ESTABLISHED",
+  "freeze_commit": "a19b720",
+  "primary_holm_all_pass": false,
+  "both_selectivity_effects_pass": true,
+  "both_modules_equivalent": false,
+  "SNCA_peptide_backbones": 1,
+  "two_peptide_SNCA_sensitivity": "NOT_EVALUABLE",
+  "sample_unit": "culture sample; not independent donor",
+  "generalized_neuronal_survival_tested": false,
+  "independent_dependency_experiment_reanalyzed": false
+}

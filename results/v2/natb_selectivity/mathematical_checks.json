@@ -1,0 +1,10 @@
+{
+  "relative_contrast_loading_invariance": "PASS",
+  "permutation_group_counts": [
+    126,
+    126,
+    126
+  ],
+  "sample_columns_matched_by_name": true,
+  "missing_values_imputed": false
+}

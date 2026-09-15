@@ -687,3 +687,50 @@ reproduced all 15 generated analysis/figure files byte-for-byte. Mathematical
 checks confirm that withheld outcomes cannot influence their own predictions.
 Earlier validation labels and the separate whole-project R clean-clone gate
 remain unchanged. See `results/v2/fly_genetic_rescue/README.md`.
+
+## 2026-09-15: intervention selectivity and synaptic-protein extension
+
+The direct perturbation-source audit recovered the complete Santhosh Kumar
+et al. (2024) NatB proteomics supplement and froze a culture-level analysis
+at `a19b720` before calculating intensity differences. Source metadata and
+the authors' positive findings were already known, so this is explicitly a
+retrospective reanalysis. NAA25 is a new intervention target related to
+proteasome-dependent substrate clearance; it is not one of the original
+eight proteasome leads.
+
+The frozen selective-alpha-synuclein-lowering test did not pass. The
+NAA25 manipulation check passed (Holm p = 0.02381), but the SNCA/proteasome
+and SNCA/neuronal contrasts had Holm p = 0.11111 and 0.15079. SNCA has one
+peptide and only four observed knockdown samples. The result remains
+`SELECTIVITY_NOT_ESTABLISHED`; missing values were not imputed.
+
+The implemented alternative identified a molecular selectivity concern:
+SYP and SYT1 are approximately 60% and 57% lower, respectively, with
+proteome-wide FDR = 0.02389 and 0.03427. The fixed neuronal-protein panel
+is about 30% lower while the measured proteasome-assembly panel passes
+the prespecified relative-abundance equivalence criterion. Other proteins
+also change, so the response cannot be called uniquely synaptic.
+
+Post-hoc robustness checks retain every result. SYT1 remains about 63%
+lower at FDR = 0.03753 using only complete, equally weighted peptide
+backbones, with all 14 qualifying backbones pointing down. SYP has only
+one complete backbone and therefore fails that strict coverage gate.
+Both original protein effects and the neuronal-panel effect remain
+negative after every single-sample omission. Removing both SYP and SYT1
+from the panel retains an approximately 16% reduction. These checks are
+within-study robustness, not independent replication.
+
+Canonical SYP/SYT1 N termini fall outside the common NatB motif. This is
+a mechanism-discrimination clue, not evidence of actual acetylation or
+proof of an indirect pathway. Neuronal survival and synaptic activity
+were not measured in these ten culture samples. The causal clearance
+experiments in the source paper belong to the original authors.
+
+The extension adds a specific, intervention-based molecular consequence
+and testable selectivity constraint. It does not establish a replicated
+new causal mechanism or validate a therapy. Full source qualification,
+frozen and post-hoc specifications, every eligible protein result, raw
+input acquisition, dependency pins, two PNG/PDF figures and a standalone
+reproduction runner are included. The isolated reproduction record is
+`docs/v2/natb_selectivity/verification.json`. See
+`results/v2/natb_selectivity/README.md` for exact methods and claim limits.

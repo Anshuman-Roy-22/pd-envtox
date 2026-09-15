@@ -1,0 +1,81 @@
+{
+  "S1": {
+    "shared8": [
+      "POMP",
+      "PSMA4",
+      "PSMB4",
+      "PSMC5",
+      "PSMD1",
+      "PSMD2",
+      "PSMD4",
+      "PSMG1"
+    ],
+    "proteasome_assembly": [
+      "ADRM1",
+      "PAAF1",
+      "POMP",
+      "PSMA1",
+      "PSMA2",
+      "PSMA3",
+      "PSMA4",
+      "PSMA5",
+      "PSMA6",
+      "PSMA7",
+      "PSMA8",
+      "PSMB1",
+      "PSMB10",
+      "PSMB11",
+      "PSMB2",
+      "PSMB3",
+      "PSMB4",
+      "PSMB5",
+      "PSMB6",
+      "PSMB7",
+      "PSMB8",
+      "PSMB9",
+      "PSMC1",
+      "PSMC2",
+      "PSMC3",
+      "PSMC4",
+      "PSMC5",
+      "PSMC6",
+      "PSMD1",
+      "PSMD10",
+      "PSMD11",
+      "PSMD12",
+      "PSMD13",
+      "PSMD14",
+      "PSMD2",
+      "PSMD3",
+      "PSMD4",
+      "PSMD5",
+      "PSMD6",
+      "PSMD7",
+      "PSMD8",
+      "PSMD9",
+      "PSME1",
+      "PSME2",
+      "PSME3",
+      "PSME4",
+      "PSMF1",
+      "PSMG1",
+      "PSMG2",
+      "PSMG3",
+      "PSMG4"
+    ]
+  },
+  "S2": {
+    "shared8": [],
+    "proteasome_assembly": [
+      "PSMB3",
+      "PSMC2",
+      "PSME4"
+    ]
+  },
+  "S3": {
+    "shared8": [],
+    "proteasome_assembly": [
+      "PSME4"
+    ]
+  }
+}
