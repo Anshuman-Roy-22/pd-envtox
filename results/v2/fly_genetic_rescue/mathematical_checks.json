@@ -1,0 +1,5 @@
+{
+  "held_out_outcome_invariance": "PASS",
+  "direct_loop_prediction_agreement": "PASS",
+  "known_ratio_and_common_scale_cancellation": "PASS"
+}

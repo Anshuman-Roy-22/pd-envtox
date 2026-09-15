@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Standalone fly extension, not complete V2/R release",
+  "fresh_input_acquisition": true,
+  "source_checksum_verification": "PASS",
+  "generated_files_compared": 15,
+  "byte_identical": true,
+  "figure_visual_inspection": "PASS",
+  "mathematical_checks": "PASS",
+  "generated_sha256": {
+    "arm_aggregates.tsv": "1544defe26d55a00e248f660c51de6fba9022c380f2843e9095a32ec616fd9cc",
+    "climbing_descriptive_comparison.tsv": "63a73f54b5d0ee56d25b565f7809b6b5ddda087f845c18ba26f00bc878863c87",
+    "environment.json": "0c7d2f3d0e652430358ad2ecdf37fbaa237304adbc10401dfcc09d3af2153dbf",
+    "genetic_interaction_prediction.pdf": "39b2743cf55704cafc90680b031daea49dae181c7296465300f4b2ace556f900",
+    "genetic_interaction_prediction.png": "dd2609c5f4d1d052c4e334c2b3ea47d1e6c1360d076d83416ed62c7eb2653777",
+    "genotype_effects.tsv": "a28b0a2d9a763cb629f84b7c5992c73ca0507f36aa4147089d960b8995381643",
+    "heldout_predictions.tsv": "f1c8608e871e359a006d6b8a2a195a95e4cadb8029e06ed8f5b3c5e6b3925a2f",
+    "interaction_audit.json": "94cfdff8e59e7707f5334336dd935775ced3c6dc6dc92531b22e2f3af8077b44",
+    "interaction_matrix.tsv": "97b36d0ef54863a8c1f382f0c40a1d37dd447fb1b978e6ca9570c1c1dcbccba9",
+    "mathematical_checks.json": "3b5f81cf40ac98388e8c17f839bdec6714abdf71398c01e798069fa21198ed83",
+    "permutation_statistics.tsv": "847921ae84ccab8d5700b8f1065a17c120d94b89d4d62185f9a3428d371a9b2e",
+    "prediction_neighbors.tsv": "7ebf623fb55dfddeedac75e79948dc684aedf2076eed629a655f9dd1472fe91c",
+    "sensitivity_summary.tsv": "268b40f159544e211849a8c4a9d6c3d8a68fe2d011548a5e7bf788e02f939eb6",
+    "source_inventory.json": "09d553b9a790105ca56554951297d540841c64ca19a1a5238fc242ef195029e4",
+    "validation_summary.json": "2134c080a2a9f6abbb5305bf2beed6265d6693a53fdf12154ac8635f902d6964"
+  }
+}

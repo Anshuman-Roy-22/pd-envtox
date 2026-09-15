@@ -1,0 +1,18 @@
+{
+  "n_genotypes": 18,
+  "MAE_GI": 0.5005921823121011,
+  "MAE_mean": 0.4497908910362382,
+  "MAE_severity": 0.49131016472580324,
+  "improvement_over_mean": -0.11294424206507547,
+  "improvement_over_severity": -0.018892378486567774,
+  "T": -0.11294424206507547,
+  "spearman_rho": 0.2479340165962039,
+  "randomization_p": 0.48665133486651335,
+  "n_permutations": 10000,
+  "seed": 20260915,
+  "freeze_commit": "5d6968a49890cf724566c762aae2a9299f878efe",
+  "evidence_scope": "retrospective within-study genotype-withheld prediction",
+  "classification": "NOT_SUPPORTED",
+  "climbing_genotypes": 4,
+  "climbing_direction_agreements": 4
+}

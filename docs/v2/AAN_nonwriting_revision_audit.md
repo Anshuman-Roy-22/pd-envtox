@@ -649,3 +649,41 @@ another mechanism-directed analysis can be promised. Earlier outcomes and
 the separate master-runner/R clean-clone gates remain unchanged.
 See `results/v2/functional_rescue/README.md` for methods, limitations,
 commands, verification scope and the complete result inventory.
+
+## 2026-09-15: genetic-interaction-to-response benchmark completed
+
+Two intervention datasets were audited from their deposited workbooks.
+The selected fly dataset contains an author-processed 24-locus interaction
+matrix and both Q10 and R55 treatment/vehicle arms for 18 mutant genotypes.
+The alternative GSE154112 screen has 28 genes, two biological replicates
+and no direct coverage of the original 52-gene proteasome set. It was not
+analyzed for effects after selecting the fly benchmark.
+
+Commit `5d6968a` froze the genotype mapping, response definition, prediction
+method, competing baselines, permutation rule and sensitivity analyses before
+numeric extraction. Published source findings were already visible, so this
+is explicitly retrospective within-study cross-validation. The original
+experimental discoveries belong to Kaempf et al. (2026).
+
+The interaction-profile predictor had mean absolute error 0.500592, compared
+with 0.449791 for the average-response baseline and 0.491310 for the vehicle-
+severity comparator. This is 11.29% worse than the average-response baseline;
+the randomization p value is 0.486651. The result is `NOT_SUPPORTED`.
+All four fixed sensitivity analyses also failed to beat the average-response
+baseline. Treatment-preference directions agree across innervation and
+climbing in 4/4 overlapping genotypes, a descriptive within-study check.
+
+No source row was treated as an independently randomized vial or experiment.
+Missing batch identifiers, differences in age and allele dosage, and the
+use of author-processed interaction scores remain explicit limitations.
+The result does not invalidate the original published interventions or
+exclude all possible predictive models. It does not establish a stronger
+causal mechanism for this project.
+
+The extension includes checksum-locked source acquisition, all predictions,
+neighbors and permutation statistics, a scientific PNG/PDF figure, version
+pins, a standalone runner and release verification. Freshly acquired inputs
+reproduced all 15 generated analysis/figure files byte-for-byte. Mathematical
+checks confirm that withheld outcomes cannot influence their own predictions.
+Earlier validation labels and the separate whole-project R clean-clone gate
+remain unchanged. See `results/v2/fly_genetic_rescue/README.md`.
