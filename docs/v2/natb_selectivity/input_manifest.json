@@ -1,0 +1,27 @@
+{
+  "archive_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10857481/supplementaryFiles",
+  "inner_archive": "sciadv.adj4767_tables_s1_to_s5.zip",
+  "files": [
+    {
+      "path": "adj4767_Table_S1.csv",
+      "bytes": 578859,
+      "sha256": "734439876b70eb1edbc03efdf328dba8fbb9eb4606f8105b5195740aabf34b05"
+    },
+    {
+      "path": "adj4767_Table_S2.csv",
+      "bytes": 30910,
+      "sha256": "9a898100ffda052af9f773ba00d4cd227e57945be96184e834fe2cce0a3e6a99"
+    },
+    {
+      "path": "adj4767_Table_S3.csv",
+      "bytes": 8917,
+      "sha256": "39fa2b98e7a69e0ef3aee32e663fe681df098bf21c15de743efcb7258e1dfa2d"
+    },
+    {
+      "path": "adj4767_Table_S5.csv",
+      "bytes": 16505876,
+      "sha256": "0a45aa7aeaff06552332c0d4f46930ceaf7380450b895f2d52d23a17bf8e27f3"
+    }
+  ],
+  "note": "Archive wrapper timestamps may change; exact member bytes are locked."
+}

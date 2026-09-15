@@ -25,6 +25,7 @@ data_raw/functional_rescue/
 
 # Published experimental inputs for the genotype-response benchmark.
 data_raw/fly_genetic_rescue/
+data_raw/natb_selectivity/
 
 # Keep final outputs, but ignore transient logs.
 results/_*.txt
