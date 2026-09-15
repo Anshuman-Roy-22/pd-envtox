@@ -1,0 +1,42 @@
+{
+  "date_utc": "2026-09-15",
+  "analysis_status": "Amended before model fitting/ranking due to normalized follow-up source units; published-data reanalysis",
+  "features": [
+    "IndividualCell_Intensity_MeanIntensity_SNCA",
+    "Cell_Neurites_LengthPerNuclei_MAP2",
+    "Cell_Neurites_LengthPerNuclei_TH",
+    "Cell_Intensity_MeanIntensity_TH"
+  ],
+  "viability_features": [
+    "Nuclei_Number_Living",
+    "Nuclei_Ratio_Living"
+  ],
+  "covariance_shrinkage": 0.5,
+  "covariance_shrinkage_sensitivities": [
+    0.1,
+    0.9
+  ],
+  "minimum_control_wells_per_plate_per_genotype": 8,
+  "minimum_compound_wells": 3,
+  "alpha_rescue_threshold": 0.5,
+  "retention_threshold": 0.8,
+  "retention_sensitivities": [
+    0.7,
+    0.9
+  ],
+  "required_well_fraction": 0.75,
+  "minimum_matched_compounds": 20,
+  "minimum_positive_and_negative_compounds": 5,
+  "minimum_average_precision_gain": 0.1,
+  "minimum_leave_one_compound_out_positive_fraction": 0.8,
+  "maximum_relative_dose_difference": 0.05,
+  "biochemical_imaging_comparison_dose_M": 1e-06,
+  "biochemical_primary_starred_policy": "exclude flagged values; include as descriptive sensitivity",
+  "biochemical_inference": "descriptive only; no biological replicate IDs and no P values",
+  "normalization": "per-plate mutant-median centering and pooled within-genotype control SD; living-cell count ratio retained",
+  "integrity_tolerance_sd": {
+    "0.7": 0.75,
+    "0.8": 0.5,
+    "0.9": 0.25
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "original_plan_commit": "61e73fd",
+  "failure": "PD-SCD-01 and all other follow-up plates have no mutant control wells nonnegative in every selected field; original raw-ratio model not fit",
+  "control_only_checks": {
+    "IndividualCell_Intensity_MeanIntensity_SNCA": {
+      "min": -2.9189866,
+      "median": 1.8342254,
+      "max": 6.036399,
+      "negative_entries": 8
+    },
+    "Cell_Neurites_LengthPerNuclei_MAP2": {
+      "min": -6.196113,
+      "median": -1.4322376,
+      "max": 1.5041375,
+      "negative_entries": 43
+    },
+    "Cell_Neurites_LengthPerNuclei_TH": {
+      "min": 1.8790954,
+      "median": 5.8608665,
+      "max": 10.827899,
+      "negative_entries": 0
+    },
+    "Cell_Intensity_MeanIntensity_TH": {
+      "min": -3.6158385,
+      "median": -0.95232195,
+      "max": 9.597806,
+      "negative_entries": 33
+    },
+    "Nuclei_Number_Living": {
+      "min": 675.0,
+      "median": 980.0,
+      "max": 1205.0,
+      "negative_entries": 0
+    },
+    "Nuclei_Ratio_Living": {
+      "min": -3.188582,
+      "median": -1.1155528,
+      "max": 2.7376106,
+      "negative_entries": 34
+    }
+  },
+  "exposure": "Initial screen features normalized in memory, then follow-up calibration failed. No model fitted, no compound scores/ranks inspected or exported. Control values inspected for diagnosis."
+}
