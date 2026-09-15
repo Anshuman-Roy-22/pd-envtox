@@ -1,0 +1,109 @@
+{
+  "plan_commit": "61e73fd",
+  "normalization_amendment_commit": "57cdfae",
+  "normalization_amendment": "docs/v2/functional_rescue/normalization_amendment.md",
+  "primary": {
+    "n_compounds": 31,
+    "positive": 0,
+    "negative": 31,
+    "retention": 0.8,
+    "alpha_AP": null,
+    "multivariate_AP": null,
+    "AP_gain": null,
+    "alpha_AUC": null,
+    "multivariate_AUC": null,
+    "alpha_repeatability_spearman": 0.8383064516129033,
+    "multivariate_repeatability_spearman": 0.6733870967741936,
+    "leave_one_compound_out_positive_gain_fraction": null,
+    "decision": "BENCHMARK_NOT_EVALUABLE"
+  },
+  "model": {
+    "features": [
+      "IndividualCell_Intensity_MeanIntensity_SNCA",
+      "Cell_Neurites_LengthPerNuclei_MAP2",
+      "Cell_Neurites_LengthPerNuclei_TH",
+      "Cell_Intensity_MeanIntensity_TH"
+    ],
+    "shrinkage": 0.5,
+    "mutant_mean": [
+      -0.12186437796169734,
+      0.1827997275309793,
+      0.08062036793641031,
+      0.09819372445025214
+    ],
+    "corrected_mean": [
+      -4.920742799804189,
+      -0.40114819491046627,
+      1.0731632811015834,
+      -0.789738904975613
+    ],
+    "weights": [
+      -0.1864826707370568,
+      -0.025669094926033992,
+      0.0010745111425335325,
+      -0.10027384885867074
+    ],
+    "pooled_covariance": [
+      [
+        2.157746421135423,
+        0.3874784110293924,
+        -0.8123180120714446,
+        -0.2769590660532211
+      ],
+      [
+        0.3874784110293924,
+        0.9759741432027579,
+        0.248912251357735,
+        -0.26159353080127146
+      ],
+      [
+        -0.8123180120714446,
+        0.248912251357735,
+        1.246561821009345,
+        -0.15127453801507434
+      ],
+      [
+        -0.2769590660532211,
+        -0.26159353080127146,
+        -0.15127453801507434,
+        1.0170578028724468
+      ]
+    ],
+    "training_mutant_wells": 48,
+    "training_corrected_wells": 48
+  },
+  "biochemical_audit": {
+    "parsed_values": 15201,
+    "flagged_values": 3054,
+    "parse_issues": [
+      {
+        "assay": "ROS",
+        "sheet": "TIC10",
+        "location": "H16",
+        "raw": "1..099436",
+        "reason": "malformed_numeric_not_repaired"
+      }
+    ],
+    "sheets": {
+      "JC1": 20,
+      "ROS": 20
+    },
+    "cross_assay_exact_names": 15,
+    "cross_assay_inferred_names": 4,
+    "biological_replicates": "unresolved; no inferential tests performed"
+  },
+  "screen_compounds": 1020,
+  "followup_compound_doses": 198,
+  "matched_compounds": 31,
+  "matched_eligible": 31,
+  "screen_alpha_response": 11,
+  "screen_joint_response": 0,
+  "matched_followup_alpha_response": 3,
+  "matched_followup_joint_response": 0,
+  "invalid_wells": {
+    "control": 0,
+    "screen": 0,
+    "followup": 0
+  },
+  "interpretation": "Finite selected-panel prediction and descriptive assay evidence; no new molecular mechanism or independent biological confirmation."
+}

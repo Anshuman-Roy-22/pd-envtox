@@ -1,0 +1,4 @@
+SC_cat	compound_name	followup_dose_M	screen_alpha_score	followup_alpha_score	followup_Nuclei_Number_Living_ratio	followup_integrity_fraction_0.8	followup_viability_fraction_0.8	followup_joint_fraction_0.8
+S1145	SNS-032	5.13e-06	0.763221883171	1.06325476071	0.730863608011	0	0	0
+S1230	Flavopiridol	5.13e-06	0.726849537427	1.05126688867	0.616828897511	0	0	0
+S8144	Halofuginone	5.13e-06	0.913764693271	0.827328813642	0.413519821172	0	0	0

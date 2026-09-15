@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-09-15",
+  "scope": "isolated extension-only source snapshot, empty raw-data cache, freshly downloaded immutable author inputs; same observed Python environment",
+  "fresh_source_files": 16,
+  "source_bytes": 8659066,
+  "compared_outputs": [
+    {
+      "file": "analysis_summary.json",
+      "byte_identical": true
+    },
+    {
+      "file": "biochemical_control_duplication.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "biochemical_parse_issues.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "biochemical_summary.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "biochemical_values.tsv.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "control_plate_scores.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "control_plate_validation.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "control_transfer_diagnostics.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "control_wells.tsv.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "cross_assay_descriptive.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "fig1_benchmark_and_calibration.pdf",
+      "byte_identical": true
+    },
+    {
+      "file": "fig1_benchmark_and_calibration.png",
+      "byte_identical": true
+    },
+    {
+      "file": "fig2_all_matched_response_components.pdf",
+      "byte_identical": true
+    },
+    {
+      "file": "fig2_all_matched_response_components.png",
+      "byte_identical": true
+    },
+    {
+      "file": "followup_doses.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "followup_wells.tsv.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "leave_one_compound_out.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "marker_responder_diagnostics.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "matched_benchmark.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "matched_component_pass_rates.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "normalization_audit.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "screen_compounds.tsv",
+      "byte_identical": true
+    },
+    {
+      "file": "screen_wells.tsv.gz",
+      "byte_identical": true
+    },
+    {
+      "file": "sensitivity_summary.tsv",
+      "byte_identical": true
+    }
+  ],
+  "design_and_inventory_byte_identical": true,
+  "extra_metric_cross_check": "AP and AUC agreed with scikit-learn 1.8.0 across 100 seeded tied-score random draws (seed 638170); no model tuning",
+  "visual_review": "Both 300-DPI PNGs inspected and layouts corrected; corresponding PDFs export the same Matplotlib figures as vector files",
+  "limits": [
+    "No claim of a new environment installation or cross-platform byte identity",
+    "Not the repository-wide V2/R clean-clone gate"
+  ],
+  "isolated_one_command_runner": "PASS: acquisition check, design audit, fixed analysis, figures and release verifier"
+}

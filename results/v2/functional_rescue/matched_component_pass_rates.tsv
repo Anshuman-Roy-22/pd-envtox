@@ -1,0 +1,32 @@
+SC_cat	compound_name	n_wells	alpha	MAP2_neurites	TH_neurites	TH_intensity	living_fraction	living_count	joint	marker_and_integrity
+P3150	WAY-657095	4	0	0.5	0.25	0.5	1	1	0	0
+P3180	WAY-658979	4	0	0	0	0.25	0.75	1	0	0
+S1041	STF-62247	4	0	1	0.5	0.5	0.75	0.75	0	0
+S1047	Vorinostat	4	0	1	0.5	0	0.5	0.5	0	0
+S1053	Entinostat	4	0	1	1	0.25	0.75	0.75	0	0
+S1145	SNS-032	4	1	0	0	1	0	0	0	0
+S1230	Flavopiridol	4	1	0	0	0.75	0.5	0	0	0
+S1792	Simvastatin	4	0	1	0.25	0.5	0.75	1	0	0
+S2128	Bazedoxifene HCl	4	0.25	0	0.25	0	1	0.25	0	0
+S2167	Bazedoxifene Acetate	4	0	0	0.25	0.25	0.75	0	0	0
+S2348	Rotenone	4	0	0	0	0.5	0	0	0	0
+S2689	WAY-600	4	0	0.75	0	0.5	0.5	0.75	0	0
+S2797	Lonafarnib	4	0	1	0.75	0.75	1	1	0	0
+S2895	Tyrphostin 9	4	0	1	0	1	0.25	0	0	0
+S2934	Ensartinib dihydrochloride	4	0	1	0.25	1	0	0	0	0
+S4053	Sertraline HCl	4	0	0.75	0	1	0.75	0.75	0	0
+S4157	Chloroquine Phosphate	4	0	1	0.75	0.75	0.75	0.25	0	0
+S5071	Duloxetine	4	0	0.75	0.25	0.75	0.75	1	0	0
+S5232	Alectinib hydrochloride	4	0	0.75	0.25	0.75	0.5	0.5	0	0
+S5856	Trifluoperazine	4	0	0.5	0	0.5	0.5	1	0	0
+S7292	RG2833	4	0	0.75	1	1	0.75	1	0	0
+S7576	UNC2025	4	0	1	0.5	1	0	0	0	0
+S7620	GSK1324726A	4	0	1	0	1	0.25	0	0	0
+S7683	PIK-III	4	0	1	0.25	0.75	1	1	0	0
+S8144	Halofuginone	4	1	0	0	1	0	0	0	0
+S8276	FCCP	4	0	1	0	1	0.25	0	0	0
+S8320	SKL2001	4	0	0.5	0	0.5	0.75	1	0	0
+S8456	VPS34 inhibitor 1	4	0	0.5	0.25	1	0.75	1	0	0
+S8738	Bimiralisib	4	0	1	0.75	0.75	0.25	0.25	0	0
+S8769	Tinostamustine	4	0	0	0.5	0.25	0.75	1	0	0
+S9467	Thiothixene	4	0	0.75	0.25	0.5	1	1	0	0

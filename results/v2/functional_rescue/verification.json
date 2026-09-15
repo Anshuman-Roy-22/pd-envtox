@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "source_files_verified": 16,
+  "release_files_verified": 46,
+  "parsed_tables": [
+    {
+      "file": "biochemical_control_duplication.tsv",
+      "rows": 160
+    },
+    {
+      "file": "biochemical_parse_issues.tsv",
+      "rows": 1
+    },
+    {
+      "file": "biochemical_summary.tsv",
+      "rows": 676
+    },
+    {
+      "file": "biochemical_values.tsv.gz",
+      "rows": 15201
+    },
+    {
+      "file": "control_plate_scores.tsv",
+      "rows": 84
+    },
+    {
+      "file": "control_plate_validation.tsv",
+      "rows": 4
+    },
+    {
+      "file": "control_transfer_diagnostics.tsv",
+      "rows": 9
+    },
+    {
+      "file": "control_wells.tsv.gz",
+      "rows": 144
+    },
+    {
+      "file": "cross_assay_descriptive.tsv",
+      "rows": 20
+    },
+    {
+      "file": "followup_doses.tsv",
+      "rows": 198
+    },
+    {
+      "file": "followup_wells.tsv.gz",
+      "rows": 930
+    },
+    {
+      "file": "leave_one_compound_out.tsv",
+      "rows": 31
+    },
+    {
+      "file": "marker_responder_diagnostics.tsv",
+      "rows": 3
+    },
+    {
+      "file": "matched_benchmark.tsv",
+      "rows": 31
+    },
+    {
+      "file": "matched_component_pass_rates.tsv",
+      "rows": 31
+    },
+    {
+      "file": "normalization_audit.tsv",
+      "rows": 168
+    },
+    {
+      "file": "screen_compounds.tsv",
+      "rows": 1020
+    },
+    {
+      "file": "screen_wells.tsv.gz",
+      "rows": 4800
+    },
+    {
+      "file": "sensitivity_summary.tsv",
+      "rows": 7
+    }
+  ],
+  "checks": [
+    "source checksums and one-to-one well/catalogue design",
+    "release checksums and gzip integrity",
+    "tied-score AP/AUC and undefined-class metrics",
+    "positive-affine normalization invariance",
+    "marker-responder cell-count ratios from original source",
+    "fixed primary and seven sensitivity outcomes",
+    "failed corrected-control transfer reported"
+  ],
+  "scope": "This functional-rescue extension only; does not verify the repository-wide V2/R pipeline."
+}

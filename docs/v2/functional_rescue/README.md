@@ -1,7 +1,21 @@
 # Mechanistic redesign after the neuronal guide-key audit
 
-Date: 2026-09-15. Status: **data acquisition and feasibility completed;
-biological reanalysis and model evaluation not completed**.
+Date: 2026-09-15. Current status: **fixed reanalysis completed;
+`BENCHMARK_NOT_EVALUABLE`, with failed transfer of the control calibration**.
+
+The complete result and interpretation are in
+[`results/v2/functional_rescue/README.md`](../../../results/v2/functional_rescue/README.md).
+All 31 matched compounds were analyzed. None meets the joint rule, and the
+corrected follow-up controls also fail it. This is a limitation of our
+transferred endpoint, not proof that biological rescue is absent. Three
+marker responders have reduced living-nuclei counts. No new molecular
+mechanism or validated multivariate predictive gain was established.
+
+Commits `61e73fd` and `57cdfae` preserve the initial plan and source-scale
+amendment before fitting. The record below describes the **earlier
+feasibility stage and its proposed implementation**; prospective wording
+there is historical. The current report supersedes its completion status.
+Run the completed extension with `python scripts/run_functional_rescue.py --fetch`.
 
 ## Decision
 

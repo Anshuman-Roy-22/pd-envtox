@@ -611,3 +611,41 @@ newly discovered rescue mechanism, independent replication, or trained AI
 model. Details, exact limits and the next implementation specification are
 in `docs/v2/functional_rescue/README.md`. The existing null and positive
 results, and unfinished master-runner/R verification gates, are unchanged.
+
+## 2026-09-15: functional-rescue analysis completed
+
+The proposed extension was executed after a fixed plan (`61e73fd`) and a
+documented source-scale amendment (`57cdfae`) made before fitting. The
+amendment replaces invalid ratios of centered follow-up features with
+control-standardized changes; raw living-count ratios remain interpretable.
+
+The complete 1,020-compound screen, 198 follow-up compound-dose entries,
+and 31 exact catalogue/matched-dose comparisons are retained. The fixed
+joint response has zero matched positives, so the AP benchmark is
+`BENCHMARK_NOT_EVALUABLE`. All six prespecified sensitivities also have
+zero positives. Undefined metrics remain missing, including leave-one-out
+AP gain. No thresholds were changed after outcomes were seen.
+
+The corrected follow-up controls also fail the joint rule (0/48 wells),
+and their mean marker score shifts from 1.00 in training to 0.20 in follow-up.
+The combined rule assumes preservation of features that can also be lower
+in corrected cells. This prevents interpreting zero positives as proof of
+absent biological rescue. It is a limitation of our endpoint and transfer.
+Marker rankings repeat across the selected compound panel (rho 0.838), but
+the multivariate score has lower repeatability (rho 0.673). Three marker
+responders have median living-nuclei counts at 73%, 62% and 41% of vehicle.
+Those descriptive observations do not establish a molecular mechanism.
+
+ROS and JC-1 workbook values, annotation flags, repeated controls, malformed
+entries and uncertain name joins are preserved without inventing biological
+replicate labels or inferential P values. Two reproducible PNG/PDF figures,
+a standalone extension runner, observed dependency pins, release checksums
+and an isolated reproduction record accompany the complete result.
+
+The current verdict is that this extension adds assay diagnostics but
+does not deliver a mechanistic breakthrough for AAN. The report specifies
+the missing perturbation-by-disease/dependency experiments required before
+another mechanism-directed analysis can be promised. Earlier outcomes and
+the separate master-runner/R clean-clone gates remain unchanged.
+See `results/v2/functional_rescue/README.md` for methods, limitations,
+commands, verification scope and the complete result inventory.
