@@ -2,6 +2,8 @@
 
 Updated 18 September 2026. Read alongside [the reconstructed audit and new matched-perturbation comparison](reconstruction_20260918/README.md). This file is an evidence map for the student's own paper, not a claim that every result is independent or prospective.
 
+The [subsequent specificity follow-up](specificity_followup_20260918/README.md) adds exact permutation-inverted human intervals, a CAMERA correlation curve and a descriptive dependency plot. All four human intervals remain below zero under the stated shift model. CAMERA's estimated mode remains nonsignificant and uses different denominator degrees of freedom from fixed-correlation mode. The global-disruption/realized-knockdown regression remains **blocked by missing broad expression inputs** and has not been performed. The dependency plot cannot substitute for that check.
+
 ## One scientific question
 
 **Do environmental-toxicant transcriptomic signatures nominate protein-homeostasis processes whose genetic perturbation alters neuronal synaptic programs, and how specific are those responses?**

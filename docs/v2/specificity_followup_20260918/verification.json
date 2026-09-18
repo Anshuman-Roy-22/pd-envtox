@@ -1,0 +1,48 @@
+{
+  "plan_commit": "ee992a0",
+  "parent": "1c7983eb93415217c3faa5005972d824bd1eabef",
+  "python": "3.12.14",
+  "python_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "R": "4.3.3",
+  "limma": "3.58.1",
+  "statmod": "1.5.0",
+  "deterministic_rerun": "PASS",
+  "scientific_artifacts_byte_identical": 13,
+  "interval_invariance_checks": "PASS: common offset, treatment shift, label reversal",
+  "visual_inspection": "PASS for both PNG figures",
+  "global_disruption_regression": "BLOCKED_INPUT; not run",
+  "inputs_and_code_sha256": {
+    "scripts/specificity_followup_20260918.py": "1ee89d5e16f1e803fb25092b9a4c22119ac2fbdc330361713e4b73b193d5c627",
+    "scripts/specificity_followup_20260918.R": "be2c717032e6ea6fbece3d74d47ec77f896aa522e12e534b8570d415ac714a75",
+    "docs/v2/specificity_followup_20260918/PLAN.md": "715bc16fe85b09a155520e59c743ab8b66bae5373292e1a110b77d9563f167d5",
+    "data_raw/pathways/ReactomePathways.gmt": "89983d5c1f0af11c52edfeee7323eb425580ac6281d387a528562ab1787ce56b",
+    "results/v2/reconstruction_20260918/human/protein_sample_scores.tsv": "468739e87a8cf975d9978831f94d4a3ba231b5bceb4640e1bcad6240fa96df72",
+    "results/v2/reconstruction_20260918/human/relative_culture_scores.tsv": "36f9d1b87fbee1e2496589e40fabc7964ef6805334d906df1a2d1d2af01dc3c5",
+    "results/v2/reconstruction_20260918/human/relative_tests.tsv": "b6bd07f431a1e7c560f2968fdfc0c88f92da3e7b191b5b96e9cb3d991a79c898",
+    "results/v2/reconstruction_20260918/mouse/all_mouse_effects.tsv": "58a32aeefa5832110bb6c2f88b5303d162d27f2326044fe0acdacc162ad34e1f",
+    "docs/v2/reconstruction_20260918/locked_comparators.tsv": "3b8ade9a34c5609cddbbf9ffaecf764d2a2b94cbe7d379d309460842abc2da08",
+    "docs/v2/reconstruction_20260918/all_candidate_covariates.tsv": "a261a006f3091a203d9a6d87a6f4c0758ba077098449ea8f0b7ef05d0796f538"
+  },
+  "output_sha256": {
+    "human_permutation_intervals.tsv": "476e785dfe2715204d64d9f31f95d5f7496a0be2866d639cc94de083e8fb2d85",
+    "dependency_associations.tsv": "727c9d215a36f158c9701b5f1bc3426742c4bd0abf68a605d59f943f0251096a",
+    "camera_correlation_sensitivity.png": "9c50cc8ebce5d9ec0308fe03b2db6e8eb6c9122d4e39f4ec25a5a0d90843b5c4",
+    "camera_estimated_all_pathways.tsv": "edf17f53f5076787f615bff4973d43918ae9d3a75b53050572477d30a18e4180",
+    "camera_grid_all_pathways.tsv": "bef9f2fd5429349c4b7919d4155cfe8481c2ca1a556a16c58cb0251bc48cff5c",
+    "intervals_and_dependency.png": "e625923788e4d806e85fca2fc194ca0c3e62f2a035974bcfd99916cc342bef8f",
+    "intervals_and_dependency.pdf": "8a1e49efa3f62bc123295905383a7977084753def278c9a4bf6ed3e3a4965d41",
+    "camera_grid_focus.tsv": "6036dc855b2bcf76297338014420dbff51c1239e5de981a97270cb05fd455c7e",
+    "installed_camera_default.R.txt": "66eb8f553b2e03d1f115b6a912d8d2cf475379de7dc0b3b2b78e8e5fc166cac6",
+    "camera_correlation_sensitivity.pdf": "234a0c5d9becadb24dda44181fb16aa80967bffb74befde214f75284adb2c882",
+    "human_inversion_breakpoints.tsv": "0b99d2605217945f7425a63d537deb5b3cd9e5e82c244c51a7ca2d3e9a4b1019",
+    "camera_estimated_focus.tsv": "20f4c32071b068b6d0c761867cac64f7e738e16042c46410bbcecba7e6a8fe25",
+    "dependency_gene_means.tsv": "bc23793fd5dda7191373c07e35314999729f40e8541e24fb8dd6c66af0c9170c"
+  },
+  "scope": "Same-environment repeat using preserved matrices; no global mouse regression or whole-project clean clone.",
+  "serialization_note": "Installed function dump strips trailing whitespace; repeat verified; numeric and graphical outputs unchanged."
+}

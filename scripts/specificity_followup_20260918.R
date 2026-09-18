@@ -1,0 +1,12 @@
+args<-commandArgs(trailingOnly=TRUE);root<-normalizePath(args[1]);out<-file.path(root,'results/v2/specificity_followup_20260918');dir.create(out,recursive=TRUE,showWarnings=FALSE)
+suppressPackageStartupMessages(library(limma));suppressPackageStartupMessages(library(statmod))
+stopifnot(as.character(getRversion())=='4.3.3',as.character(packageVersion('limma'))=='3.58.1',as.character(packageVersion('statmod'))=='1.5.0')
+x<-as.matrix(read.delim(file.path(root,'results/v2/reconstruction_20260918/human/protein_sample_scores.tsv'),row.names=1,check.names=FALSE));x<-x[complete.cases(x),];design<-cbind(Intercept=1,Knockdown=as.integer(grepl('NAA25',colnames(x))))
+gmt<-strsplit(readLines(file.path(root,'data_raw/pathways/ReactomePathways.gmt')),'\t',fixed=TRUE);idx<-lapply(gmt,function(z)which(rownames(x)%in%z[-c(1,2)]));names(idx)<-vapply(gmt,function(z)z[2],'');idx<-idx[lengths(idx)>=10&lengths(idx)<=500];stopifnot(nrow(x)==3409,length(idx)==862)
+writeTSV<-function(x,name)write.table(x,file.path(out,name),sep='\t',row.names=FALSE,quote=FALSE,na='NA')
+grid<-c(0,.005,.01,.0125,.015,.02,.03,.05,.075,.10,.15,.20,.30);all<-list()
+for(rho in grid){cam<-camera(x,idx,design,contrast=2,inter.gene.cor=rho);cam$pathway<-rownames(cam);cam$fixed_correlation<-rho;all[[as.character(rho)]]<-cam;cat('Fixed correlation',rho,'complete\n')}
+all<-do.call(rbind,all);writeTSV(all,'camera_grid_all_pathways.tsv');writeTSV(all[all$pathway%in%c('R-HSA-112315','R-HSA-112310'),],'camera_grid_focus.tsv')
+est<-camera(x,idx,design,contrast=2,inter.gene.cor=NA);est$pathway<-rownames(est);writeTSV(est,'camera_estimated_all_pathways.tsv');writeTSV(est[est$pathway%in%c('R-HSA-112315','R-HSA-112310'),],'camera_estimated_focus.tsv')
+f<-get('camera.default',asNamespace('limma'));writeLines(trimws(deparse(f),which='right'),file.path(out,'installed_camera_default.R.txt'))
+writeLines(trimws(capture.output(sessionInfo()),which='right'),file.path(out,'R_session.txt'))
