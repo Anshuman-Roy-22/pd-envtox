@@ -1,0 +1,18 @@
+{
+  "qualified_all_targets": 3390123,
+  "matched_all_targets": 3387094,
+  "missing_all_targets": 3029,
+  "focal_control_original": 219610,
+  "focal_control_matched": 219422,
+  "metadata_disagreements": 0,
+  "mapped_panels": {
+    "proteasome": 37,
+    "synapse": 85
+  },
+  "shortlist_counts": {
+    "Naa20": 30,
+    "Pomp": 30,
+    "Psmb4": 30,
+    "Psmc5": 30
+  }
+}

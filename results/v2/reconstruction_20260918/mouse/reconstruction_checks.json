@@ -1,0 +1,12 @@
+{
+  "focal_difference_from_known_effect": {
+    "Naa20": 0.0,
+    "Pomp": 0.0,
+    "Psmb4": 0.0
+  },
+  "calibration_reproduced": true,
+  "human_994_of_4511_reproduced": true,
+  "human_relative_four_tests_reproduced": true,
+  "estimated_CAMERA_FDR": 0.626542587395541,
+  "scope": "Numeric discrepancy checks against previously reported results; not independent confirmation"
+}

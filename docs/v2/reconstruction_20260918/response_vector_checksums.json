@@ -1,0 +1,642 @@
+[
+  {
+    "gene": "Abat",
+    "bytes": 14415360,
+    "sha256": "0f32793b9df3f63323091b336389ebd63ce454592b74d845205d9537f9a5efef"
+  },
+  {
+    "gene": "Aldh2",
+    "bytes": 8424825,
+    "sha256": "88815ece77a663ba965c93b977044e7ffbcd99575b16be37c458bc73a7baffdb"
+  },
+  {
+    "gene": "Aldh5a1",
+    "bytes": 15010413,
+    "sha256": "46e5dbc7875fa4f634127cd758593dcb805180f134b4164e347549ff4565ae75"
+  },
+  {
+    "gene": "Ap2a1",
+    "bytes": 20170530,
+    "sha256": "9e177dc116aae6400e13dfce51b5e7c84b6783a24cae7c53cd27661382282056"
+  },
+  {
+    "gene": "Ap2a2",
+    "bytes": 16330167,
+    "sha256": "671931fa847fba06fb532ce9517f9af8f9c1a291ed74ec388e1060f50e784986"
+  },
+  {
+    "gene": "Ap2b1",
+    "bytes": 19361191,
+    "sha256": "9ad8656e1b8546aba9ee3b86acb804789acfae7f1c58b9b8664d4860d6ab1077"
+  },
+  {
+    "gene": "Ap2m1",
+    "bytes": 19189840,
+    "sha256": "df64798667157db5ca78d439364393687489002bdcfe83a3c5a74c464d388809"
+  },
+  {
+    "gene": "Arl6ip5",
+    "bytes": 18786842,
+    "sha256": "c9d6911e30e62c9a6a5d8216adf84205da6ff073480ba597d48606bfcb9d640e"
+  },
+  {
+    "gene": "Cacna2d1",
+    "bytes": 18124080,
+    "sha256": "5fe30b2c7918a9c184234654ab58349751e984e75e4672ee22c03918eb878c1d"
+  },
+  {
+    "gene": "Cacna2d2",
+    "bytes": 13726695,
+    "sha256": "93d06fb2155fa1c56503a74d3fe96dc1a3315689fe3b642f748e808521183b6f"
+  },
+  {
+    "gene": "Cacnb1",
+    "bytes": 18247088,
+    "sha256": "0b829564a96fd579de5bbb6b6a5c4bd022f9a3e7865c7a43773f9231df953114"
+  },
+  {
+    "gene": "Cacnb3",
+    "bytes": 16825675,
+    "sha256": "78b48ddae7e3f62a99d90c5b3e8386a0840ebec8d118df2872d3cddfc9377adc"
+  },
+  {
+    "gene": "Camk2b",
+    "bytes": 21061021,
+    "sha256": "94f3c31acf6d1c93913c52c733fb9e1005b65c166f0b6720aabdce6a8cd027db"
+  },
+  {
+    "gene": "Camk2g",
+    "bytes": 16607910,
+    "sha256": "7f097cc504f58f94820c31b02f5692170374da77a31ef54245833c2e4eec71b7"
+  },
+  {
+    "gene": "Cask",
+    "bytes": 13197242,
+    "sha256": "044b7540cc7461921f9a08c5e963ada8858e59969bc229e752461390797bea7c"
+  },
+  {
+    "gene": "Chrna3",
+    "bytes": 1067230,
+    "sha256": "ec939ae25ecb5d5652f4ca31ea443fa23232fe71dd89f3e850515b4fcc0917ea"
+  },
+  {
+    "gene": "Dlg1",
+    "bytes": 14446804,
+    "sha256": "0f9ba5f00a7020e55fddb25116dccae81d427523e4f372e0e397fd40802a9b8c"
+  },
+  {
+    "gene": "Dlg3",
+    "bytes": 15395176,
+    "sha256": "5d3f8cd90867b0a19ecb50ec92e62da5bfb5a39cf3e54c1f95f1d8ea3f88da9a"
+  },
+  {
+    "gene": "Dlg4",
+    "bytes": 20469180,
+    "sha256": "7c48cb577d11288b2d6bfc48111592ff8d7fae0c3ccbcc8f7f76328a2fe40b5d"
+  },
+  {
+    "gene": "Dnajc5",
+    "bytes": 19066654,
+    "sha256": "2c80c27c3385933b63434868dfb1b0dd82b1b870495a910c546081efcbdaaa3f"
+  },
+  {
+    "gene": "Epb41l1",
+    "bytes": 19324507,
+    "sha256": "696871d3070876460463bac3407de5392b0dec7e9b830324fa759251cfba4395"
+  },
+  {
+    "gene": "Gabbr1",
+    "bytes": 20884788,
+    "sha256": "a1e08ba40c68d31df5929398e659166bb5c883b41ef94e77ef281d91564fcef1"
+  },
+  {
+    "gene": "Gabbr2",
+    "bytes": 19532285,
+    "sha256": "0f7766481368e32616174f5c87d18bc1c751f1f62a8fbd092cf2f68a0692cf13"
+  },
+  {
+    "gene": "Gabra3",
+    "bytes": 14593653,
+    "sha256": "e14b3149acafacdb78ea61dbb8b99b14b50ba236e608b19fef5a8a22f68db81f"
+  },
+  {
+    "gene": "Gabrb3",
+    "bytes": 20170917,
+    "sha256": "9b6a2a6666a5c1c471440478ac7d88679293b375d54344a60cd47048a6fea6c1"
+  },
+  {
+    "gene": "Git1",
+    "bytes": 14399598,
+    "sha256": "5d810ac6525b4b779068a184802edd9019793d1e098eead05f4db3ad5b4c18a9"
+  },
+  {
+    "gene": "Gls",
+    "bytes": 21135387,
+    "sha256": "d802c3fedbe13a4c27a4a705ff19d1e42fa1e97322ffac8525b94f1c10aa2ee1"
+  },
+  {
+    "gene": "Glul",
+    "bytes": 7475392,
+    "sha256": "4a0cd2a2685a7675c7687fff9b3b409aef68b93a6996617883d45dcc28e4e837"
+  },
+  {
+    "gene": "Gnai1",
+    "bytes": 16190971,
+    "sha256": "f7a72903f142c8be06f45992cb0d4353b5a5af6a1c0d294d0c123c3ca0784fbf"
+  },
+  {
+    "gene": "Gnai2",
+    "bytes": 8334094,
+    "sha256": "9019f585a4543f005bfde7f923dda8da49abe1d1522544220468d85b85d8e2ae"
+  },
+  {
+    "gene": "Gnai3",
+    "bytes": 13063496,
+    "sha256": "3acdd7d9cdb76c4f92d48c58b623fcdb26207249c4cd0423dec92dca64d80a39"
+  },
+  {
+    "gene": "Gnb1",
+    "bytes": 17235914,
+    "sha256": "7d6263f693cfe8bfa0c08a4316598fea1296880a660d75bae39379e8341759c2"
+  },
+  {
+    "gene": "Gnb2",
+    "bytes": 9708240,
+    "sha256": "1b47142d2fd2c1e34fb5332feadb54657382a602c5d9cadd450741bc40ce26ec"
+  },
+  {
+    "gene": "Gng2",
+    "bytes": 13546417,
+    "sha256": "9e1a2d3e5f99a19fd0e5a99dcb1409cf0aa0b80635ed4f2002c31a9d3dc87d51"
+  },
+  {
+    "gene": "Gria2",
+    "bytes": 21134047,
+    "sha256": "db861a932d85353efd7085c0a9229ec50bebab24b37713b305b51dee495311d7"
+  },
+  {
+    "gene": "Gria4",
+    "bytes": 20071196,
+    "sha256": "b09da536c79cabff7ce9782053161a5e5ebd601206ac72a9f8fc3a9cfb6ab9df"
+  },
+  {
+    "gene": "Grip1",
+    "bytes": 12622634,
+    "sha256": "ad37c486bad157e425816a8e832fcc7330b50ffb545f7624972d01595662b6bc"
+  },
+  {
+    "gene": "Hras",
+    "bytes": 14716687,
+    "sha256": "9973f893212a62dc8951328dd97dd5beda84c7a746dc9dc769f8d1be2d1a73d0"
+  },
+  {
+    "gene": "Hspa8",
+    "bytes": 19258853,
+    "sha256": "31515b34c8ee59185383bfa36a9435121cdabad6c158b6cdad8cf41fa30bfb94"
+  },
+  {
+    "gene": "Kras",
+    "bytes": 17037768,
+    "sha256": "d55c0561e932c531ce7c322685adef6036c6c617f29022219203c0a7496f496c"
+  },
+  {
+    "gene": "Lin7a",
+    "bytes": 14419325,
+    "sha256": "095728b084c5ddcd564cfa610c72425dfc7f19d0c6ad749d89e3b17148362b4a"
+  },
+  {
+    "gene": "Lin7c",
+    "bytes": 12259152,
+    "sha256": "5214dff37ac30a0fd046c75581c9d7bb719df5dc7597a3643a7d20df9162b5ae"
+  },
+  {
+    "gene": "Mapk1",
+    "bytes": 19313765,
+    "sha256": "aef8b94f35cbf8b014a7229fea4fa5b5e8c2ad348624a134d8f08589c79d49e8"
+  },
+  {
+    "gene": "Mapk3",
+    "bytes": 13101656,
+    "sha256": "174bd9bc70455c562910319a8ebb889ce6b0ad500ddc418dc1c5ab63ee2aece3"
+  },
+  {
+    "gene": "Mapt",
+    "bytes": 20235737,
+    "sha256": "a5a5b281d3638b74a487bc8569d7894d69d2d93ddb5e21262d3c13d214aed2e5"
+  },
+  {
+    "gene": "Myo6",
+    "bytes": 15488025,
+    "sha256": "771ddbda107c233c58143f881f25f82ffb81b6bef8fb7c6d2b2864ea2da189cd"
+  },
+  {
+    "gene": "Naa20",
+    "bytes": 18827653,
+    "sha256": "b8cc40fdf506f3665605de98f30a00d9b223b3e1d4420c370036bf0948840785"
+  },
+  {
+    "gene": "Naa25",
+    "bytes": 15392932,
+    "sha256": "7124ca1c5d7a400f257b1248114ac1f329c0831b88cd278807393fedef57ea61"
+  },
+  {
+    "gene": "Naaa",
+    "bytes": 5902231,
+    "sha256": "9ebcd97e0ca625d3a9fd8cbe79f658eda3c69d898560b0ab003e0626d68e9d01"
+  },
+  {
+    "gene": "Nbea",
+    "bytes": 20052616,
+    "sha256": "8cf1e90a7b53f6028eca6abdb8cc0194c489c862167436288600f64282809b8c"
+  },
+  {
+    "gene": "Ncald",
+    "bytes": 17595806,
+    "sha256": "4f7f89e5a1757546fa9cc70bf925a9fb2ca7f91f50e5dbb7beb4c99397a54593"
+  },
+  {
+    "gene": "Nefl",
+    "bytes": 16921032,
+    "sha256": "5889d80e9f96a0424d20e8b92739ac46e961f54261f711afe781d80129daf382"
+  },
+  {
+    "gene": "Nptn",
+    "bytes": 21377395,
+    "sha256": "9bb2a957049f81daddf5fa15873d7b1ffaeeb6314a3f012363858966aac95234"
+  },
+  {
+    "gene": "Nsf",
+    "bytes": 16849521,
+    "sha256": "eb8d03559cfe7045deed7461d2b95d11930990525aa0abd69e069787f501101a"
+  },
+  {
+    "gene": "Pick1",
+    "bytes": 17208050,
+    "sha256": "d9a697d70c0602030b82231c357bb8b83763c47143ca74f6e2e6ab3c7ae386f4"
+  },
+  {
+    "gene": "Plcb1",
+    "bytes": 16028088,
+    "sha256": "296fd988ddececbb5a4015d59a0944b6a710946a9420bce64833e2bc29b6cc6b"
+  },
+  {
+    "gene": "Pomp",
+    "bytes": 13152570,
+    "sha256": "1bdea6f0d315b9c4569c8654194879c4296cd95ea58134414c31fd127ca567de"
+  },
+  {
+    "gene": "Ppm1e",
+    "bytes": 18239589,
+    "sha256": "560b17f2359dd54f5c67f4d704059f76664003ed9d7f80ebd45133e80197e0e5"
+  },
+  {
+    "gene": "Prkaca",
+    "bytes": 20044988,
+    "sha256": "7c5057eb70a3f0b1e8578ee2317d9b1268841b8f2fea03df3d08105d761276ba"
+  },
+  {
+    "gene": "Prkacb",
+    "bytes": 19510110,
+    "sha256": "3e414e674a2a6fbb70fbc56f393ae1553cff8fbca4dd19943acd85d36b14515b"
+  },
+  {
+    "gene": "Prkag1",
+    "bytes": 13628169,
+    "sha256": "245d46a965080e81e06266f3319a56071a174480b797e091c1489a4eacb4ef1f"
+  },
+  {
+    "gene": "Prkar1a",
+    "bytes": 20023016,
+    "sha256": "8f426ed14957a8dcead6afa540265bfb5c389e70bdd88a7869dd94074442cfe2"
+  },
+  {
+    "gene": "Prkar2a",
+    "bytes": 8386284,
+    "sha256": "f61f8b54ed1530685e3b7e00d815891e784774dcb370c25c74e7d40d6f9c56e1"
+  },
+  {
+    "gene": "Prkar2b",
+    "bytes": 11767039,
+    "sha256": "145451ad308e209bbd215d2c3651b66f1dd62888663d1eb9835c11704e04f453"
+  },
+  {
+    "gene": "Prkca",
+    "bytes": 11034761,
+    "sha256": "e8da6dcee47810614cc321fa4ae9cb9d6bf39bf6ffb2db2a62006a06619be0f9"
+  },
+  {
+    "gene": "Prkcb",
+    "bytes": 20203789,
+    "sha256": "af716701fc1cb724b17000c1188d87ffc67f78649bd83c66b3f99b6460dc956a"
+  },
+  {
+    "gene": "Prkcg",
+    "bytes": 17357646,
+    "sha256": "09cdd13949cfd30e58216487645dcbe3f9e9bced67b11aee4cf631bf63eadc37"
+  },
+  {
+    "gene": "Psma1",
+    "bytes": 17432608,
+    "sha256": "094111a18898cfbbb0a16a5ae84beb6889a5f6b93c913f3957e88bb0b9ceefb6"
+  },
+  {
+    "gene": "Psma2",
+    "bytes": 12697762,
+    "sha256": "dd1f8a77280f716043bfb3003858d2d6491713879e2ce0612eaf4dbd9850b2f2"
+  },
+  {
+    "gene": "Psma3",
+    "bytes": 19128435,
+    "sha256": "d0dd3c0e60afcf31f3338297edc5383cad08062ad390bdb1a22f506697eb521e"
+  },
+  {
+    "gene": "Psma4",
+    "bytes": 17911811,
+    "sha256": "b0beb7f60548b5d6605f2c1104a55a0e5b0a834d0f5893a34c04b233f8514f9f"
+  },
+  {
+    "gene": "Psma5",
+    "bytes": 14878207,
+    "sha256": "cd6c7e4ab70a12ea2f38b5d471036ba78f5f2fd966cabf3ea9a7ddc1bb05772f"
+  },
+  {
+    "gene": "Psma6",
+    "bytes": 14674483,
+    "sha256": "a0055a56158b1e6d8795fa06f8234c6681fd116a8bdaf29f2c3558dc4786de60"
+  },
+  {
+    "gene": "Psma7",
+    "bytes": 11666603,
+    "sha256": "d650db4388810267e4d4a74b0a18242fd53f5b8bea6ad7fde577b1c6ba28132d"
+  },
+  {
+    "gene": "Psmb1",
+    "bytes": 4060970,
+    "sha256": "6585653ebe9a7d2a9153da205ab6d7356551c06c9a14da1a3f9b9e2470da20fc"
+  },
+  {
+    "gene": "Psmb2",
+    "bytes": 14981429,
+    "sha256": "0c76b7b013a3c4e333c9919e711df034d90796e23664b4571cf67afa6fc2796d"
+  },
+  {
+    "gene": "Psmb3",
+    "bytes": 6932250,
+    "sha256": "82374330e7b3f30620faefe88cd4ebff0bce56869edc927924bed6ccd9a606ce"
+  },
+  {
+    "gene": "Psmb4",
+    "bytes": 5578108,
+    "sha256": "67527cd2a4e66581baeed2daf9c7bc5864e049d4e5036ccabf48134b8e6f4700"
+  },
+  {
+    "gene": "Psmb5",
+    "bytes": 10310694,
+    "sha256": "58af691580abcb174fd6db3ecde8780bb33e1a0818f31a4568b1fc97d6c6583d"
+  },
+  {
+    "gene": "Psmb6",
+    "bytes": 10373805,
+    "sha256": "56bfc34c8f8557e70fcb04df3149bab6be39d52794fd17d1cd252555633f2e3d"
+  },
+  {
+    "gene": "Psmb7",
+    "bytes": 13451275,
+    "sha256": "ab8cb0a733e14045bf8042363858889546f08ab63e52bf7ccf65523aaabd300b"
+  },
+  {
+    "gene": "Psmc1",
+    "bytes": 15616607,
+    "sha256": "89eb689e5a006bce3c9292870fd6c3c1df6b16789bc3db1d7a9f11313532d9ee"
+  },
+  {
+    "gene": "Psmc2",
+    "bytes": 15551892,
+    "sha256": "9366d027e0d33c839f12d7ab2e710db83ad5ba17bdac84e4159c571761838069"
+  },
+  {
+    "gene": "Psmc3",
+    "bytes": 16778284,
+    "sha256": "55d0c3e66a454c75656513c0eccec7abc2cbf414a8741da172a5d605f276a378"
+  },
+  {
+    "gene": "Psmc4",
+    "bytes": 17382032,
+    "sha256": "d2a3d13863856685ee1091afad826a8dc42f8107c6be4cd4fb4e001fc3727e3a"
+  },
+  {
+    "gene": "Psmc5",
+    "bytes": 18565106,
+    "sha256": "bd9fc5ff9a76bd99f4a336c0ca9279e3322bf00b88f3afde0580c14bdbbb9200"
+  },
+  {
+    "gene": "Psmc6",
+    "bytes": 19618705,
+    "sha256": "3991352b94d1bbd490b2c988ed85ec3c520b9d2905f6cbf25e6deb09a16e7f7d"
+  },
+  {
+    "gene": "Psmd1",
+    "bytes": 19045556,
+    "sha256": "80696ae59234017c478598d2875a72f30c49c6bae48fb4d6adaf4e161c95ec4c"
+  },
+  {
+    "gene": "Psmd10",
+    "bytes": 4606712,
+    "sha256": "a3b7806c50dc90786b10ead53b4e27c5292395bf65084cfb28cf4baa42b37060"
+  },
+  {
+    "gene": "Psmd11",
+    "bytes": 16648611,
+    "sha256": "8159ed0f412a9e6d4f883170a1ea5fb9adff883c11b5fed39a13859db2b25838"
+  },
+  {
+    "gene": "Psmd12",
+    "bytes": 17601007,
+    "sha256": "dcdd8402cd34031353c944bd535eef4166c4c3873ed85b61407725b8ce48093c"
+  },
+  {
+    "gene": "Psmd13",
+    "bytes": 13279721,
+    "sha256": "ac399f37340e4d96e1d10b11fef11743faaf99cb8c071f60d8f5150431fa0d8b"
+  },
+  {
+    "gene": "Psmd14",
+    "bytes": 16559197,
+    "sha256": "bba5abd3d36ca6b0aad8f4ab7d686b9c50e35516c6bc816bedc85891530170ff"
+  },
+  {
+    "gene": "Psmd2",
+    "bytes": 15339173,
+    "sha256": "39f10d37f3905af6484e94df0f0842fa192fe69e31cd85604aa4b9f826b50dce"
+  },
+  {
+    "gene": "Psmd3",
+    "bytes": 15945934,
+    "sha256": "e8bb7ad1b35d61402a3b277714875c0bea316f006677883ca6d1fdd459b4cdbf"
+  },
+  {
+    "gene": "Psmd4",
+    "bytes": 16386754,
+    "sha256": "cea12f278dc2defa794daae3ed83e8e5738670b18dd57959baca513dd8775ed4"
+  },
+  {
+    "gene": "Psmd5",
+    "bytes": 11701653,
+    "sha256": "e1e5b9eab65af09b7fbd8a6197a40b00b6419dc08385abc99b446da44869a971"
+  },
+  {
+    "gene": "Psmd6",
+    "bytes": 16956102,
+    "sha256": "f6a98a41217e62d90ce1cb7c5db14ad606559c713b675dbdbea21255db2a4ecd"
+  },
+  {
+    "gene": "Psmd7",
+    "bytes": 16921785,
+    "sha256": "497cd6f76f89742d5ae0b3c6798559413550ef860bf13d3a50d003b773f78a0c"
+  },
+  {
+    "gene": "Psmd8",
+    "bytes": 11181242,
+    "sha256": "9e79da8842a777ade4fe8b06e14c7157136d04fbcf59deadeaa7dd1fbeea5df1"
+  },
+  {
+    "gene": "Psme1",
+    "bytes": 7678060,
+    "sha256": "497d237c0b92b8ffd659c28e08dd22d9534583df6c8672fb601ec9f9f8afb679"
+  },
+  {
+    "gene": "Psme3",
+    "bytes": 17803825,
+    "sha256": "06010339d61da1a1edb7a238067cbb6893cae5c680915ce14e03c32141e37e1b"
+  },
+  {
+    "gene": "Psme4",
+    "bytes": 19960589,
+    "sha256": "295525e61d93cc2157750560ba386ea42358f353c63c8f4f9eba66a45451694c"
+  },
+  {
+    "gene": "Psmf1",
+    "bytes": 12203309,
+    "sha256": "eab222288a1ffc4409ce8733978352d8a4bb7db2693bcc1a20858d21d27d4d09"
+  },
+  {
+    "gene": "Rab3a",
+    "bytes": 18986907,
+    "sha256": "2739f7cd94f126cbba34c29c00789756953295c1bd7c40fdb35ddf840f4b3015"
+  },
+  {
+    "gene": "Rac1",
+    "bytes": 4206130,
+    "sha256": "b2dcbe60defe412fff316c9adbc41b8acd31af450f9ce350ac13c197f4943e77"
+  },
+  {
+    "gene": "Snap25",
+    "bytes": 21089932,
+    "sha256": "8705ce4a3c27e68e8c3114078b4ff8f02b4b15df8f477059d884059863417be0"
+  },
+  {
+    "gene": "Snca",
+    "bytes": 12640211,
+    "sha256": "3d8655406cc5544309fffe3b34e2f4ee8c54684ee835929320b92a3793201c19"
+  },
+  {
+    "gene": "Src",
+    "bytes": 14441203,
+    "sha256": "40f0968a631d25bb230d3384dfd6d9d684bbd0d7f86244de23c7b30068954a5b"
+  },
+  {
+    "gene": "Stx1a",
+    "bytes": 14094757,
+    "sha256": "26c1f731f994aebdfbfec586243149c054bbcbacbc305b8513a519c5cfd1a2cf"
+  },
+  {
+    "gene": "Stxbp1",
+    "bytes": 21219762,
+    "sha256": "aacaaf00de16304c99fe359dbf6664317d8b3e78f6dcb800ccd83e85c75e68e5"
+  },
+  {
+    "gene": "Syn1",
+    "bytes": 20860784,
+    "sha256": "6c5f704587537705055edc0d964bd16e3d0732ad01cce08db272842a10327e24"
+  },
+  {
+    "gene": "Syp",
+    "bytes": 21390034,
+    "sha256": "aa2f1316a659030d2c1e2c3054bca803327188768fc822fba7970f35b1ad1280"
+  },
+  {
+    "gene": "Syt1",
+    "bytes": 20781498,
+    "sha256": "aba66f4f944111d6b11f40d43884b3396054f074bf8ce8b29b5a533fa5bee4a9"
+  },
+  {
+    "gene": "Tspan7",
+    "bytes": 21549696,
+    "sha256": "db71c0cc5bf822ac9a0818c611a4a58695ede663f58ee2da74aababc19ead794"
+  },
+  {
+    "gene": "Tuba1a",
+    "bytes": 21335431,
+    "sha256": "c6b780f311eab5c8674b491e2855ba03c4057d9e0259672d725638b80f335109"
+  },
+  {
+    "gene": "Tuba4a",
+    "bytes": 16483363,
+    "sha256": "172ae583ac53ca06d57004fa8aa025685fd4086f5fd705119ec2c3dcc12cebe8"
+  },
+  {
+    "gene": "Tubal3",
+    "bytes": 29604,
+    "sha256": "52ae261c69b1a31b68bfb331f0d5f3ab7646ae5e45d09734c986a3c7040d499f"
+  },
+  {
+    "gene": "Tubb1",
+    "bytes": 41469,
+    "sha256": "f8148e3315582e078f54c79c478e9210436b9c3a99e41c19be017a0f4ce1fb7c"
+  },
+  {
+    "gene": "Tubb2a",
+    "bytes": 19885447,
+    "sha256": "7921b6ed1388cfd86ca01518e6ef610de4a950698d226e45dc538fc37445ac33"
+  },
+  {
+    "gene": "Tubb2b",
+    "bytes": 8927697,
+    "sha256": "e2e9351c09e381b0d0064c94fd1907b9d293e8d352445d0907f9b41a41477c14"
+  },
+  {
+    "gene": "Tubb3",
+    "bytes": 19655223,
+    "sha256": "83833128ee8baca4fdd90b4f29f2444214ee95021a2d53385fa42c88ee70f8c2"
+  },
+  {
+    "gene": "Tubb4a",
+    "bytes": 18978532,
+    "sha256": "a0e751a0bec7ae04cd1342a50bbcffe14035c50fcbb8cff7d0bd001394ebd5b1"
+  },
+  {
+    "gene": "Tubb4b",
+    "bytes": 18465840,
+    "sha256": "b35230af05e9afec231ead6694dd326504634a2cf865dd3bda0dfafa8df56a16"
+  },
+  {
+    "gene": "Tubb6",
+    "bytes": 142606,
+    "sha256": "5e69d46499d252ba41287971700c1eaf0c960f4bc3443d97c9ae7077f0122aba"
+  },
+  {
+    "gene": "Unc13b",
+    "bytes": 11390588,
+    "sha256": "9b86b8caf88fc6e4e8910c83b3ef688d9d311f6c0aab7bd98df32251a3c2e8a7"
+  },
+  {
+    "gene": "Vamp2",
+    "bytes": 19458554,
+    "sha256": "20684a7d11f1ba369902fb5647b854cfc7bca16a63fabc77607c8d61316595e2"
+  },
+  {
+    "gene": "Xkr4",
+    "bytes": 17937689,
+    "sha256": "b582eb7187da5dfd38ca93bb9d977ab377a840371456027bc5a3ad2ea371b771"
+  }
+]

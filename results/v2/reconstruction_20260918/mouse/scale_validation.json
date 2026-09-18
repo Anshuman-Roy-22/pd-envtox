@@ -1,0 +1,7 @@
+{
+  "matched_cells": 4207,
+  "nonzero_cells": 3679,
+  "maximum_absolute_error": 6.052258179067849e-07,
+  "scale": "natural log(1 + 10000 * raw gene UMI / total RNA UMI)",
+  "raw_sha256": "d9135bb4c47ed124df250362580491f5099b69550c4fcf73fb7e78237508e86d"
+}

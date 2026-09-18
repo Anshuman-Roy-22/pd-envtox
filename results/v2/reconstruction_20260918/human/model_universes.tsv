@@ -1,0 +1,4 @@
+model	tested_proteins	complete_proteins	pathways
+primary	4511	3409	862
+strict_backbones	2183	2183	687
+omit_NAA25_07	4494	4387	985

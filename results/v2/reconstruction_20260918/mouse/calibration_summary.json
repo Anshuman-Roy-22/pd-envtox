@@ -1,0 +1,10 @@
+{
+  "groups": 99,
+  "evaluable_groups": 99,
+  "nominal_down_positives": 3,
+  "positive_fraction": 0.030303030303030304,
+  "binomial_excess_p": 0.8775497484769528,
+  "ignored_incomplete_guides": 3,
+  "status": "CALIBRATED",
+  "caveat": "Pseudo-tests share controls and are dependent; diagnostic only"
+}

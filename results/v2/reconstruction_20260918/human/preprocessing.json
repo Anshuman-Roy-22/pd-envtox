@@ -1,0 +1,7 @@
+{
+  "source_rows": 48028,
+  "retained_precursors": 36915,
+  "quantified_genes": 4591,
+  "loading_reference_genes": 3060,
+  "missing_values_imputed": false
+}

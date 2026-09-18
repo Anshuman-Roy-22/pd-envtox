@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-18",
+  "surviving_parent": "f86baa8aabe6f0affaf2fec14f1e3cdc546400bf",
+  "reconstruction_plan_commit": "232f19e",
+  "pre_comparator_response_lock_commit": "2a220e1",
+  "isolated_index_snapshot": "e73d5448fdc5708f9cd6f9aaa288ceacb92f311b",
+  "full_addition_rerun": "PASS",
+  "input_and_code_files_verified": 25,
+  "scientific_artifacts_byte_identical": 51,
+  "verified_expression_vectors": 245,
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "pyarrow": "18.1.0",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.8",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "tzdata": "2026.3",
+    "six": "1.17.0",
+    "et-xmlfile": "2.0.0",
+    "pillow": "12.3.0",
+    "packaging": "26.3",
+    "pyparsing": "3.3.2",
+    "cycler": "0.12.1",
+    "fonttools": "4.61.1",
+    "kiwisolver": "1.4.9",
+    "contourpy": "1.3.3"
+  },
+  "R": "4.3.3",
+  "limma": "3.58.1",
+  "statmod": "1.5.0",
+  "PNG_visual_inspection": "PASS",
+  "boundaries": [
+    "Isolated staged-index snapshot using a hash-verified public-input cache and preserved upstream files.",
+    "No claim of a new environment installation, independent raw re-download or entire-project clean-clone execution.",
+    "R_session.txt retained as runtime provenance and excluded from byte-identical output checks.",
+    "Previously lost original audit commit identities were not recovered; known results were reconstructed."
+  ]
+}
