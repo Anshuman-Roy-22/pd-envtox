@@ -27,3 +27,7 @@ Report comparator-gene reference ranks descriptively, avoiding genes/cells as an
 ## Boundaries and preservation
 
 Neither data layer directly measures proteasome activity, acetylation, synaptic physiology or rescue. Proteasome RNA may increase under perturbation despite prior toxin-associated decreases. Preserve all original null labels, the estimated-correlation CAMERA failure, preprint/source-selection qualifications and small Naa20 effect size. Do not infer specific sickness or normalization artifacts solely from a broad response. Analysis dates and reconstructed versus new tests must remain distinguishable.
+
+## Metadata-only release clarification
+
+Before comparator RNA fitting, full-library reconciliation found 89,506 cells whose Safe_target_N labels were collapsed to Safe_target in the browser. These are safe-target controls, not molecular gene perturbations or the non-targeting reference. Exclude that entire control class before gene-level eligibility and require exact source/gene/group agreement for all remaining analyzed cells. No focal or candidate gene outcomes were inspected to make this correction.

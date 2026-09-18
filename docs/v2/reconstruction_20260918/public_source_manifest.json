@@ -1,0 +1,68 @@
+[
+  {
+    "file": "all_obs.parquet",
+    "url": "https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas/resolve/a7c65dc0a64da4bd47cf6ef5f4dec6c7ef745e87/metadata/all_obs.parquet",
+    "bytes": 469891237,
+    "sha256": "8f02384faf99051ef0e78942b7228e4b16c96572e6baa468443b29956ce1916f"
+  },
+  {
+    "file": "gene_metadata.parquet",
+    "url": "https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas/resolve/a7c65dc0a64da4bd47cf6ef5f4dec6c7ef745e87/metadata/gene_metadata.parquet",
+    "bytes": 414377,
+    "sha256": "a4070322813c72377a255f760db5f4ae509bad660af7a6852817ba5f021c7bd0"
+  },
+  {
+    "file": "biomart.csv",
+    "url": "https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas/resolve/a7c65dc0a64da4bd47cf6ef5f4dec6c7ef745e87/analysis/2603_shi_manuscript/ndd_perturbation/BioMart_homolog_conversion.csv",
+    "bytes": 4365322,
+    "sha256": "6105f7672f7b3a401ed98d0737f36f11bbe0c44adf9f635df15f7ef140d73133"
+  },
+  {
+    "file": "barcodes.tsv.gz",
+    "url": "https://cells.ucsc.edu/whole-brain-perturb/combined/barcodes.tsv.gz",
+    "bytes": 42346079,
+    "sha256": "1937e85c96d72c9fd9fb38aa71c515960cc351e32c58e191d6b51f39a16f58ec"
+  },
+  {
+    "file": "dataset.json",
+    "url": "https://cells.ucsc.edu/whole-brain-perturb/combined/dataset.json",
+    "bytes": 621308,
+    "sha256": "8653a112512033af1d8fe0052b2a9f0fea117c78f22cf45114c85edcdf2a563f"
+  },
+  {
+    "file": "exprMatrix.json",
+    "url": "https://cells.ucsc.edu/whole-brain-perturb/combined/exprMatrix.json",
+    "bytes": 636823,
+    "sha256": "ad4bdd7bd835098f03ddfde84378fb4e99b8a69e2c4051002007f0c7e52dc95a"
+  },
+  {
+    "file": "first_raw.parquet",
+    "url": "https://huggingface.co/datasets/perturbai/wholebrain_crispr_atlas/resolve/a7c65dc0a64da4bd47cf6ef5f4dec6c7ef745e87/data/WB8588_1_1_part-0.parquet",
+    "bytes": 311393988,
+    "sha256": "d9135bb4c47ed124df250362580491f5099b69550c4fcf73fb7e78237508e86d"
+  },
+  {
+    "file": "wholebrain_supp.zip",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13108593/supplementaryFiles",
+    "bytes": 57708040,
+    "sha256": "440625d8ccaa36c778d6b8ff543f3866ce940658eef945e2b01775cb110247ae"
+  },
+  {
+    "file": "browser_source.bin.gz",
+    "url": "https://cells.ucsc.edu/whole-brain-perturb/combined/metaFields/source.bin.gz",
+    "bytes": 4107185,
+    "sha256": "0eedb9ad2c9bdca7f8aa68d353163ca12b1d5362641a48f4cb0943663dff0e01"
+  },
+  {
+    "file": "browser_gene_target.bin.gz",
+    "url": "https://cells.ucsc.edu/whole-brain-perturb/combined/metaFields/gene_target.bin.gz",
+    "bytes": 7376423,
+    "sha256": "4eb55039a8c63d6e8ad6f9b3cdc62e1736816c23ad3fff745eecca8012a2d800"
+  },
+  {
+    "file": "browser_predicted_group.bin.gz",
+    "url": "https://cells.ucsc.edu/whole-brain-perturb/combined/metaFields/predicted_group.bin.gz",
+    "bytes": 7174,
+    "sha256": "b285e437533f70809f39770841b8f07c018510be32d7a23c4f3b85aef0eb2186"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "focal": "Naa20",
+    "matched_genes": 15,
+    "baseline_expression": 0.8959004878997803,
+    "status": "QUALIFIED"
+  },
+  {
+    "focal": "Pomp",
+    "matched_genes": 15,
+    "baseline_expression": 0.3801638185977936,
+    "status": "QUALIFIED"
+  },
+  {
+    "focal": "Psmb4",
+    "matched_genes": 1,
+    "baseline_expression": 0.10938472300767899,
+    "status": "NOT_EVALUABLE"
+  },
+  {
+    "focal": "Psmc5",
+    "matched_genes": 20,
+    "baseline_expression": 0.8555862307548523,
+    "status": "QUALIFIED"
+  }
+]
