@@ -1,10 +1,10 @@
 {
   "data_raw/global_disruption/media-3.xlsx": "7c534d8fdce8f47de4df84982ed720f5cec1b1636f89a230be83e27484e1fc49",
-  "docs/v2/global_disruption_20260919/README.md": "606835d671a188ed0878bcedfe3e2d6a956a89b6e25b627811dca69d7d3cced7",
+  "docs/v2/global_disruption_20260919/README.md": "5913abb2023fa50757f4e01f8f80d045e210c50b3b3b1202e0d5f557056d77e1",
   "docs/v2/global_disruption_20260919/RECOVERY_PLAN.md": "4df96326b8eb29f5e959e5f4581728852dc0a61d1e1a224eaefcce206b75e5ae",
   "docs/v2/global_disruption_20260919/batch_sources.json": "f0e0b7779577e2fd7490626665514eff93bf415c4f2101874ccf48598a1d99cb",
   "docs/v2/global_disruption_20260919/litter_source.json": "3ba8c9d6438dc21e8fae4c98323bf5a760658336f439d1670492a9381354680b",
-  "docs/v2/global_disruption_20260919/requirements.txt": "fc0dfba35a2e491e5376413ae9cf5e6d2b908d16ad85f644400adb7f8e7f6c02",
+  "docs/v2/global_disruption_20260919/requirements.txt": "699dcdd87446833110d138468648bd8f67e8af9080c57f856f7fc4e23aa126d5",
   "docs/v2/reconstruction_20260918/locked_comparators.tsv": "3b8ade9a34c5609cddbbf9ffaecf764d2a2b94cbe7d379d309460842abc2da08",
   "docs/v2/reconstruction_20260918/panel_mapping.tsv": "1f5c759ac2f62a2ebbbf86b962f2f36a9286320888e98bd951338f216e06c864",
   "docs/v2/reconstruction_20260918/public_source_manifest.json": "ebfcdee637f2904ef44b9d381ad7704f8c9aed83e4b904782550af97963ed352",
@@ -15,9 +15,9 @@
   "results/v2/reconstruction_20260918/mouse/specificity_mouse_pairs.tsv": "fa7d7001ff8e5b6818b0851df8275e0b6120c011ddafb403b362b814479a7158",
   "results/v2/specificity_followup_20260918/dependency_gene_means.tsv": "bc23793fd5dda7191373c07e35314999729f40e8541e24fb8dd6c66af0c9170c",
   "scripts/global_disruption_fit.py": "0827bdf96c3ec7b78e5225c90ba0e1b040983e3f439b590828ca6cbcb71fb503",
-  "scripts/global_disruption_io.py": "b6d20432cb175956f441b2d3eb87b949e26576f70193d67eb155703431221da6",
+  "scripts/global_disruption_io.py": "e8e22bfb2fcbc4752c134168ad0fe2d265245247101c16e8383754be5cced1a0",
   "scripts/global_disruption_metrics.py": "5fef1f1593d971cd3290bf544ea0f4f56887989490af81882fcd47c096949bb8",
   "scripts/global_disruption_report.py": "904505c7117c396ec830a61af20c9c83e348a95aeb6e2d1a79d9d25025cd33eb",
-  "scripts/global_disruption_validate.py": "41984c72d952b9bea2d98becc4f24c6602a9aba6eed99e6990110aab0b534fab",
+  "scripts/global_disruption_validate.py": "1f5f864f1e0adac5b721a399e3fc54e6188972d58fd79a4f52b2331325e1ff31",
   "scripts/run_global_disruption.py": "921d8aaaea7e1e4356581c689d4ae602c7e07e839e6dac6b957f1cbb03735a44"
 }

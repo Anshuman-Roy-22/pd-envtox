@@ -5,13 +5,13 @@ import json
 import struct
 import zlib
 from pathlib import Path
-from urllib.request import Request,urlopen
+from urllib.request import Request
 import numpy as np
 import pandas as pd
 import h5py
 from scipy import sparse
 from global_disruption_metrics import ROOT,DOC,OLD,OUT,read_col
-from global_disruption_io import dump,download,sha
+from global_disruption_io import dump,download,sha,verified_urlopen
 
 def first_batch_check(cache):
     spec=json.loads((DOC/'batch_sources.json').read_text())[0]
@@ -21,7 +21,7 @@ def first_batch_check(cache):
     expected=next(x['sha256'] for x in json.loads((OLD/'response_vector_checksums.json').read_text()) if x['gene']=='Xkr4')
     if not path.exists():
         req=Request('https://cells.ucsc.edu/whole-brain-perturb/combined/exprMatrix.bin?Xkr4',headers={'Range':f'bytes={offset}-{offset+length-1}'})
-        with urlopen(req,timeout=90) as r:
+        with verified_urlopen(req,timeout=90) as r:
             assert r.status==206 and r.headers['Content-Range'].startswith(f'bytes {offset}-{offset+length-1}/')
             data=r.read(length+1);assert len(data)==length
         assert hashlib.sha256(data).hexdigest()==expected

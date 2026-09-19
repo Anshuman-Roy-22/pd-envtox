@@ -3,11 +3,20 @@ import hashlib
 import json
 import os
 import shutil
+import ssl
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.request import Request, urlopen
 
 CHUNK = 16 * 1024 * 1024
+
+def verified_urlopen(request, timeout=90):
+    """Use native certificate-chain validation without relaxing TLS verification."""
+    import truststore
+    context = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+    if not context.check_hostname or context.verify_mode != ssl.CERT_REQUIRED:
+        raise RuntimeError("HTTPS certificate and hostname verification must remain enabled")
+    return urlopen(request, timeout=timeout, context=context)
 
 def sha(path):
     h = hashlib.sha256()
@@ -43,12 +52,12 @@ def download(spec, folder, workers=8):
     if missing:
         # Normal public HTTP redirects only. A refusal is propagated, never bypassed.
         req = Request(spec['url'], headers={'Range':'bytes=0-0', 'Accept-Encoding':'identity'})
-        with urlopen(req, timeout=90) as r:
+        with verified_urlopen(req, timeout=90) as r:
             resolved = r.url
         def part(ab):
             a,b=ab; p=parts/str(a)
             req=Request(resolved, headers={'Range':f'bytes={a}-{b-1}', 'Accept-Encoding':'identity'})
-            with urlopen(req, timeout=180) as r:
+            with verified_urlopen(req, timeout=180) as r:
                 expected=f'bytes {a}-{b-1}/{size}'
                 if r.status != 206 or r.headers.get('Content-Range') != expected:
                     raise RuntimeError(f'Range not honored for {path.name}: {r.status}, {r.headers.get("Content-Range")}')

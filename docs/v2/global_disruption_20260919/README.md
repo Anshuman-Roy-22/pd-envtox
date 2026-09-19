@@ -55,3 +55,9 @@ The zero-random-variance boundary is allowed within the same REML model. No sing
 ## Source provenance
 
 Raw counts: perturbai/wholebrain_crispr_atlas, immutable Hugging Face revision a7c65dc0a64da4bd47cf6ef5f4dec6c7ef745e87. Original browser scale: UCSC whole-brain-perturb/combined, checksums inherited from the prior reconstruction. Source experiments are the public Shi et al. whole-brain mouse CRISPR atlas, DOI 10.64898/2026.03.16.711480, an unreviewed preprint. This secondary analysis does not constitute a new animal experiment or a direct PD/toxin model.
+
+## Windows HTTPS certificate fix
+
+The first Windows execution successfully acquired all_obs.parquet, then failed certificate-chain validation at the UCSC barcode URL. Downloads now use truststore 0.10.4 with the native system trust mechanism (Windows CryptoAPI). Hostname and certificate verification remain mandatory. No unverified-TLS fallback or HTTP substitution is provided. This transport-only change preserves source hashes, statistical code, comparator selection, thresholds, prepared inputs and reduced-checkpoint compatibility. Existing verified downloads are reused. Install the updated requirements after importing the certificate-fix commit, then resume with the same cache path.
+
+The Linux transport and application integrity can be checked here; Windows-specific behavior must be confirmed by the local resumed run. A continued failure should be reported with the log, without altering certificate-verification settings. Implementation reference: [Truststore documentation](https://truststore.readthedocs.io/en/latest/).
