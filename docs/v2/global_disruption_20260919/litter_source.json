@@ -1,0 +1,7 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13108593/supplementaryFiles",
+  "archive_sha256": "f1c88ad124117c4cca10392fab4d7abfb9745ceadbb3c73f13ab263abcc304f2",
+  "workbook_sha256": "7c534d8fdce8f47de4df84982ed720f5cec1b1636f89a230be83e27484e1fc49",
+  "historical_archive_sha256": "440625d8ccaa36c778d6b8ff543f3866ce940658eef945e2b01775cb110247ae",
+  "note": "ZIP container changed; inner workbook matches previously recorded content checksum."
+}

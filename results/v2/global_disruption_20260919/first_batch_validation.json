@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "selected_cells": 2232,
+  "maximum_raw_browser_error": 5.960464477539062e-07,
+  "maximum_batch_aggregation_error": 5.932220893678508e-08,
+  "raw_sha256": "c65b31541a8e525a0442dadf0d06390f352cbe38f1899d7dde397018f2a6e267",
+  "browser_vector_sha256": "b582eb7187da5dfd38ca93bb9d977ab377a840371456027bc5a3ad2ea371b771"
+}

@@ -1,0 +1,12 @@
+{
+  "synthetic_reml": {
+    "maximum_fixed_prediction_difference": 1.315512435096089e-09,
+    "statsmodels_gene_variance": 0.0028216285949017967,
+    "statsmodels_residual_variance": 0.00041487998653247816,
+    "warnings": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "repeated_litter_identifiers": "PASS",
+  "observed_model": "NOT_RUN"
+}
